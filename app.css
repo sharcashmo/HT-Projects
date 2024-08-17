@@ -1,0 +1,275 @@
+body {
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-size: 13px;
+  color: #000;
+  font-family: Roboto, Verdana, Helvetica, Sans-Serif;
+  letter-spacing: 0.2px;
+  line-height: 1.4em;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.cell,
+.headerCell {
+  width: 590px;
+  height: 225px;
+  background: rgba(245, 245, 245, 0.9);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.flex-grow {
+  flex-grow: 1 !important;
+}
+
+.flex-space-between {
+  justify-content: space-between !important;
+}
+
+.flex-space-around {
+  justify-content: space-around !important;
+}
+
+.right {
+  text-align: end;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.player-info {
+  margin-left: 10px;
+}
+
+.flag {
+  width: 20px;
+  height: 12px;
+  border: #ddc 1px solid;
+  vertical-align: middle;
+  margin: 0 2px 2px 0;
+  background-image: url("flags/flags.gif");
+}
+
+.flag36 {
+  background-position: -720px 0px;
+}
+
+.icon-mother-club {
+  width: auto;
+  height: 1em;
+  vertical-align: baseline;
+}
+
+.icon-cards {
+  width: auto;
+  height: 1em;
+  vertical-align: baseline;
+}
+
+.icon-injury {
+  width: auto;
+  height: 1em;
+  vertical-align: baseline;
+}
+
+.icon-speciality {
+  width: auto;
+  height: 1em;
+  vertical-align: baseline;
+}
+
+.player-injury-level {
+  font-size: 50%;
+  margin-left: -1em;
+}
+
+h2,
+h3,
+.player-name {
+  color: #3f7137;
+  font-weight: bold;
+}
+
+.player-value {
+  background-color: #e0efe0;
+}
+
+.ft-skill {
+  font-size: xx-small;
+}
+
+.faceCard {
+  width: 110px;
+  height: 130px;
+  margin: 5px 5px 0 0;
+  float: left;
+  position: relative;
+}
+
+.faceCard > img {
+  box-shadow: grey 0px 0px 6px;
+  left: 5px;
+  top: 5px;
+  position: absolute;
+}
+
+.ht-bar {
+  display: inline-block;
+  height: 16px;
+  width: 100px;
+  position: relative;
+  margin: -1px 0 -3px 0;
+}
+.ht-bar .bar-denomination {
+  white-space: nowrap;
+  font-size: 12px;
+  margin-left: 2px;
+  line-height: 15px;
+}
+.ht-bar .bar-level {
+  position: absolute;
+  background-color: #59965d;
+  color: #f7f8f7;
+  height: 100%;
+  overflow: hidden;
+}
+.ht-bar .bar-cap {
+  position: absolute;
+  background-color: #cacaca;
+  color: #000;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.ht-bar .bar-max {
+  position: absolute;
+  background-color: #ececec;
+  color: #3f7137;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.ht-bar .bar-level.maxed {
+  background-color: #ffc000;
+  color: #000;
+}
+.ht-bar .bar-level.verylow {
+  background-color: #dd4140;
+}
+.ht-bar .bar-level.low {
+  background-color: #f5a104;
+  color: #000;
+}
+.ht-bar .bar-level.high {
+  background-color: #f1c40a;
+  color: #000;
+}
+.ht-bar .bar-level.veryhigh {
+  background-color: #59965d;
+}
+.ht-bar .nextLevel {
+  background-color: #ffc000 !important;
+  color: #000 !important;
+}
+.ht-bar[max="8"],
+hattrick-bar[max="8"] {
+  width: 56px;
+  margin-right: 2px;
+}
+.ht-bar[max="9"],
+hattrick-bar[max="9"] {
+  width: 63px;
+  margin-right: 2px;
+}
+
+.transferPlayerSkills .ht-bar {
+  width: 130px !important;
+  position: relative;
+}
+
+.transferPlayerHeader {
+  margin-bottom: 5px;
+}
+
+.playerSkillsTable {
+  table-layout: fixed;
+  width: auto !important;
+}
+
+p {
+  padding: 5px 0 9px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 0 1em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td {
+  text-align: start;
+  vertical-align: top;
+  padding-block: 2px;
+  padding-inline: 2px 4px;
+}
+
+.playButtons {
+  display: inline-block;
+}
+
+.playButtons img {
+  height: 1em;
+  cursor: pointer;
+}
+
+.playButtons .grayed {
+  opacity: 0.5;
+}
+
+.headerCell .flex-grow {
+  height: 100%;
+}
+
+.trainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerCell .skill {
+  width: 72px;
+  height: 16px;
+  overflow: hidden;
+  margin-left: 15px;
+}
+
+.trainer h3,
+.staffList h3 {
+  text-align: center;
+  width: 110px;
+  margin-left: -5px;
+  display: inline-block;
+}
