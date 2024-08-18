@@ -3,7 +3,7 @@ let img;
 var folder = "./fhetoky-t75/";
 
 $(document).ready(function () {
-  fetch("./fhetoky-t75/data.json")
+  fetch("./fhetoky-t75/data.json", { cache: "no-cache" })
     .then((res) => {
       if (!res.ok) {
         throw new Error(`HTTP error! Status: ${res.status}`);
