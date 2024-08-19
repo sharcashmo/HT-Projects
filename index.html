@@ -3,7 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <title>App</title>
-    <script src="jquery-3.7.1.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.1.1/chart.umd.js"></script>
     <script charset="utf-8" src="app.js"></script>
     <link rel="icon" type="image/x-icon" href="/fhetoky-t75/favicon.ico" />
     <link
@@ -316,46 +321,36 @@
                       <span class="aggregated-htms28">0</span>
                     </td>
                   </tr>
+                  <tr>
+                    <td class="right nowrap">Aficionados</td>
+                    <td class="nowrap" colspan="2">
+                      <span class="aggregated-fanclub-size">0</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="right nowrap">Estadio</td>
+                    <td class="nowrap" colspan="2">
+                      <span class="aggregated-arena-capacity">0</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="right nowrap">Hatstats</td>
+                    <td class="nowrap" colspan="2">
+                      <span class="aggregated-hatstats">0</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="right nowrap">Potencial</td>
+                    <td class="nowrap" colspan="2">
+                      <span class="aggregated-power-rating">0</span>
+                    </td>
+                  </tr>
                 </tbody>
               </table>
             </div>
 
-            <div class="aggregatedData">
-              <table>
-                <tbody>
-                  <tr>
-                    <td class="right">Jugadores</td>
-                    <td class="nowrap" colspan="2">
-                      <span class="aggregated-players">0</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="right">TSI</td>
-                    <td colspan="2">
-                      <span class="aggregated-tsi">0</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="right">Valor</td>
-                    <td class="nowrap" colspan="2">
-                      <span class="aggregated-value">0</span> €
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="right">Salarios</td>
-                    <td class="nowrap" colspan="2">
-                      <span class="aggregated-salary">0</span> €/semana
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="right nowrap">HTMS</td>
-                    <td class="nowrap" colspan="2">
-                      <span class="aggregated-htms">0</span> /
-                      <span class="aggregated-htms28">0</span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="chart">
+              <canvas id="htstats"></canvas>
             </div>
           </div>
         </div>

@@ -1,6 +1,8 @@
 "use strict";
-let img;
 var folder = "./fhetoky-t75/";
+var chart;
+const chartElements = 8;
+const intervalTime = 1000;
 
 $(document).ready(function () {
   fetch("./fhetoky-t75/data.json", { cache: "no-cache" })
@@ -130,8 +132,12 @@ function startEpoch(data) {
   let currentEpoch = 0;
   let interval;
 
+  chartCreate();
+  chartAddEpoch(data, currentEpoch);
+
   $(".back").on("click", function () {
     if (currentEpoch > 0) {
+      chartRemoveEpoch(data, currentEpoch);
       currentEpoch--;
     }
 
@@ -141,6 +147,7 @@ function startEpoch(data) {
   $(".next").on("click", function () {
     if (currentEpoch < maxEpoch) {
       currentEpoch++;
+      chartAddEpoch(data, currentEpoch);
     }
 
     goEpoch(currentEpoch, data);
@@ -155,18 +162,21 @@ function startEpoch(data) {
 
       if (currentEpoch >= maxEpoch) {
         currentEpoch = 0;
+        chartClear();
+        chartAddEpoch(data, currentEpoch);
         goEpoch(currentEpoch, data);
       }
 
       interval = setInterval(function () {
         if (currentEpoch < maxEpoch) {
           currentEpoch++;
+          chartAddEpoch(data, currentEpoch);
           goEpoch(currentEpoch, data);
         } else {
           clearInterval(interval);
           $(".play").removeClass("grayed");
         }
-      }, 400);
+      }, intervalTime);
     }
   });
 
@@ -189,6 +199,16 @@ function goEpoch(epoch, data) {
 
   $(".headerCell .season").text(data.WeeklyData[epoch].Season);
   $(".headerCell .week").text(data.WeeklyData[epoch].Week);
+
+  $(".aggregated-fanclub-size").text(ts(data.WeeklyData[epoch].FanclubSize));
+  $(".aggregated-arena-capacity").text(
+    ts(data.WeeklyData[epoch].ArenaCapacity)
+  );
+  if (data.WeeklyData[epoch].Matches.length > 0)
+    $(".aggregated-hatstats").text(ts(chartData(data, epoch)));
+  else $(".aggregated-hatstats").text("-");
+  $(".aggregated-power-rating").text(ts(data.WeeklyData[epoch].PowerRating));
+
   setStaff(data.WeeklyData[epoch].StaffList);
   setEpoch(data.PlayerList, data.WeeklyData[epoch].PlayerData);
 }
@@ -382,5 +402,95 @@ function setPlayer(cell, data, weeklyData) {
     bar.attr("level", skills[i]);
     $(".bar-denomination", bar).text(levelDenomination(skills[i]));
     $(".bar-level", bar).width("" + (skills[i] * 100) / 20 + "%");
+  }
+}
+
+function chartCreate() {
+  const graph = $("#htstats");
+  const data = {
+    labels: [],
+    datasets: [
+      {
+        label: "hatstats",
+        data: [],
+        spanGaps: true,
+        tension: 0.4,
+      },
+    ],
+  };
+  const config = {
+    type: "line",
+    data: data,
+    options: {
+      responsive: false,
+      maintainAspectRatio: false,
+    },
+  };
+
+  chart = new Chart(graph, config);
+  console.log("Create chart" + chart);
+}
+
+function chartClear() {
+  chart.config.data.datasets = [
+    {
+      label: "hatstats",
+      data: [],
+      spanGaps: true,
+      tension: 0.4,
+    },
+  ];
+  chart.config.data.labels = [];
+}
+
+function chartLabel(data, epoch) {
+  if (data.WeeklyData[epoch].Week == 1)
+    return "T" + data.WeeklyData[epoch].Season;
+  else return "J" + data.WeeklyData[epoch].Week;
+}
+
+function chartData(data, epoch) {
+  let htstats = null;
+
+  data.WeeklyData[epoch].Matches.forEach((match) => {
+    htstats = Math.max(
+      match.RatingMidfield * 3 +
+        match.RatingRightDef +
+        match.RatingMidDef +
+        match.RatingLeftDef +
+        match.RatingRightAtt +
+        match.RatingMidAtt +
+        match.RatingLeftAtt,
+      htstats
+    );
+  });
+
+  return htstats;
+}
+
+function chartAddEpoch(data, epoch) {
+  chart.config.data.datasets[0].data.push(chartData(data, epoch));
+  chart.config.data.labels.push(chartLabel(data, epoch));
+  chart.update();
+
+  if (chart.config.data.datasets[0].data.length > chartElements) {
+    chart.config.data.labels.shift();
+    chart.config.data.datasets[0].data.shift();
+    chart.update();
+  }
+}
+
+function chartRemoveEpoch(data, epoch) {
+  chart.config.data.datasets[0].data.pop();
+  chart.config.data.labels.pop();
+  chart.update();
+
+  let e = epoch - chartElements;
+
+  if (e >= 0) {
+    chart.config.data.datasets[0].data.unshift(chartData(data, e));
+    chart.config.data.labels.unshift(chartLabel(data, e));
+
+    chart.update();
   }
 }

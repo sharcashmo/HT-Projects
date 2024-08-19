@@ -1,8 +1,37 @@
 {
+  "League": {
+    "LeagueID": 36,
+    "LeagueName": "España"
+  },
   "WeeklyData": [
     {
       "Season": 75,
       "Week": 13,
+      "League": {
+        "LeagueLevelUnitID": 14677,
+        "LeagueLevelUnitName": "VI.359"
+      },
+      "Matches": [
+        {
+          "MatchID": 726916992,
+          "MatchType": 1,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 30,
+          "RatingRightDef": 31,
+          "RatingMidDef": 48,
+          "RatingLeftDef": 30,
+          "RatingRightAtt": 17,
+          "RatingMidAtt": 17,
+          "RatingLeftAtt": 14,
+          "TeamAttitude": 1,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 11
+        }
+      ],
+      "PowerRating": 768,
+      "FanclubSize": 1660,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
@@ -73,6 +102,31 @@
     {
       "Season": 75,
       "Week": 14,
+      "League": {
+        "LeagueLevelUnitID": 14677,
+        "LeagueLevelUnitName": "VI.359"
+      },
+      "Matches": [
+        {
+          "MatchID": 726916996,
+          "MatchType": 1,
+          "TacticType": 1,
+          "TacticSkill": 5,
+          "RatingMidfield": 13,
+          "RatingRightDef": 37,
+          "RatingMidDef": 31,
+          "RatingLeftDef": 36,
+          "RatingRightAtt": 15,
+          "RatingMidAtt": 10,
+          "RatingLeftAtt": 17,
+          "TeamAttitude": 1,
+          "RatingIndirectSetPiecesDef": 19,
+          "RatingIndirectSetPiecesAtt": 11
+        }
+      ],
+      "PowerRating": 768,
+      "FanclubSize": 1668,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
@@ -167,6 +221,14 @@
     {
       "Season": 75,
       "Week": 15,
+      "League": {
+        "LeagueLevelUnitID": 14677,
+        "LeagueLevelUnitName": "VI.359"
+      },
+      "Matches": [],
+      "PowerRating": 765,
+      "FanclubSize": 1672,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
@@ -285,6 +347,14 @@
     {
       "Season": 75,
       "Week": 16,
+      "League": {
+        "LeagueLevelUnitID": 14677,
+        "LeagueLevelUnitName": "VI.359"
+      },
+      "Matches": [],
+      "PowerRating": 765,
+      "FanclubSize": 1506,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
@@ -427,6 +497,47 @@
     {
       "Season": 76,
       "Week": 1,
+      "League": {
+        "LeagueLevelUnitID": 38038,
+        "LeagueLevelUnitName": "VII.2"
+      },
+      "Matches": [
+        {
+          "MatchID": 731747892,
+          "MatchType": 3,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 15,
+          "RatingRightDef": 20,
+          "RatingMidDef": 20,
+          "RatingLeftDef": 15,
+          "RatingRightAtt": 20,
+          "RatingMidAtt": 20,
+          "RatingLeftAtt": 19,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 17,
+          "RatingIndirectSetPiecesAtt": 14
+        },
+        {
+          "MatchID": 732705699,
+          "MatchType": 1,
+          "TacticType": 4,
+          "TacticSkill": 8,
+          "RatingMidfield": 13,
+          "RatingRightDef": 36,
+          "RatingMidDef": 25,
+          "RatingLeftDef": 42,
+          "RatingRightAtt": 20,
+          "RatingMidAtt": 14,
+          "RatingLeftAtt": 20,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 21,
+          "RatingIndirectSetPiecesAtt": 13
+        }
+      ],
+      "PowerRating": 765,
+      "FanclubSize": 1508,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
@@ -593,6 +704,47 @@
     {
       "Season": 76,
       "Week": 2,
+      "League": {
+        "LeagueLevelUnitID": 38038,
+        "LeagueLevelUnitName": "VII.2"
+      },
+      "Matches": [
+        {
+          "MatchID": 735843890,
+          "MatchType": 3,
+          "TacticType": 4,
+          "TacticSkill": 8,
+          "RatingMidfield": 15,
+          "RatingRightDef": 23,
+          "RatingMidDef": 23,
+          "RatingLeftDef": 22,
+          "RatingRightAtt": 17,
+          "RatingMidAtt": 7,
+          "RatingLeftAtt": 18,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 19,
+          "RatingIndirectSetPiecesAtt": 12
+        },
+        {
+          "MatchID": 732705703,
+          "MatchType": 1,
+          "TacticType": 4,
+          "TacticSkill": 8,
+          "RatingMidfield": 13,
+          "RatingRightDef": 28,
+          "RatingMidDef": 28,
+          "RatingLeftDef": 22,
+          "RatingRightAtt": 16,
+          "RatingMidAtt": 11,
+          "RatingLeftAtt": 22,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 21,
+          "RatingIndirectSetPiecesAtt": 14
+        }
+      ],
+      "PowerRating": 756,
+      "FanclubSize": 1514,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
@@ -759,6 +911,47 @@
     {
       "Season": 76,
       "Week": 3,
+      "League": {
+        "LeagueLevelUnitID": 38038,
+        "LeagueLevelUnitName": "VII.2"
+      },
+      "Matches": [
+        {
+          "MatchID": 736030692,
+          "MatchType": 3,
+          "TacticType": 4,
+          "TacticSkill": 8,
+          "RatingMidfield": 17,
+          "RatingRightDef": 28,
+          "RatingMidDef": 25,
+          "RatingLeftDef": 25,
+          "RatingRightAtt": 17,
+          "RatingMidAtt": 8,
+          "RatingLeftAtt": 15,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 24,
+          "RatingIndirectSetPiecesAtt": 15
+        },
+        {
+          "MatchID": 732705707,
+          "MatchType": 1,
+          "TacticType": 1,
+          "TacticSkill": 6,
+          "RatingMidfield": 10,
+          "RatingRightDef": 7,
+          "RatingMidDef": 14,
+          "RatingLeftDef": 23,
+          "RatingRightAtt": 13,
+          "RatingMidAtt": 7,
+          "RatingLeftAtt": 7,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 14
+        }
+      ],
+      "PowerRating": 756,
+      "FanclubSize": 1524,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
@@ -925,6 +1118,47 @@
     {
       "Season": 76,
       "Week": 4,
+      "League": {
+        "LeagueLevelUnitID": 38038,
+        "LeagueLevelUnitName": "VII.2"
+      },
+      "Matches": [
+        {
+          "MatchID": 736188263,
+          "MatchType": 3,
+          "TacticType": 4,
+          "TacticSkill": 9,
+          "RatingMidfield": 15,
+          "RatingRightDef": 28,
+          "RatingMidDef": 27,
+          "RatingLeftDef": 28,
+          "RatingRightAtt": 23,
+          "RatingMidAtt": 8,
+          "RatingLeftAtt": 18,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 22,
+          "RatingIndirectSetPiecesAtt": 11
+        },
+        {
+          "MatchID": 732705709,
+          "MatchType": 1,
+          "TacticType": 1,
+          "TacticSkill": 6,
+          "RatingMidfield": 12,
+          "RatingRightDef": 38,
+          "RatingMidDef": 41,
+          "RatingLeftDef": 37,
+          "RatingRightAtt": 5,
+          "RatingMidAtt": 3,
+          "RatingLeftAtt": 5,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 22,
+          "RatingIndirectSetPiecesAtt": 14
+        }
+      ],
+      "PowerRating": 740,
+      "FanclubSize": 1522,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
@@ -1115,6 +1349,47 @@
     {
       "Season": 76,
       "Week": 5,
+      "League": {
+        "LeagueLevelUnitID": 38038,
+        "LeagueLevelUnitName": "VII.2"
+      },
+      "Matches": [
+        {
+          "MatchID": 736301457,
+          "MatchType": 3,
+          "TacticType": 4,
+          "TacticSkill": 8,
+          "RatingMidfield": 19,
+          "RatingRightDef": 35,
+          "RatingMidDef": 24,
+          "RatingLeftDef": 35,
+          "RatingRightAtt": 22,
+          "RatingMidAtt": 10,
+          "RatingLeftAtt": 16,
+          "TeamAttitude": 0,
+          "RatingIndirectSetPiecesDef": 25,
+          "RatingIndirectSetPiecesAtt": 14
+        },
+        {
+          "MatchID": 732705715,
+          "MatchType": 1,
+          "TacticType": 2,
+          "TacticSkill": 4,
+          "RatingMidfield": 11,
+          "RatingRightDef": 6,
+          "RatingMidDef": 10,
+          "RatingLeftDef": 9,
+          "RatingRightAtt": 7,
+          "RatingMidAtt": 9,
+          "RatingLeftAtt": 9,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 17,
+          "RatingIndirectSetPiecesAtt": 15
+        }
+      ],
+      "PowerRating": 708,
+      "FanclubSize": 1510,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
@@ -1329,6 +1604,31 @@
     {
       "Season": 76,
       "Week": 6,
+      "League": {
+        "LeagueLevelUnitID": 38038,
+        "LeagueLevelUnitName": "VII.2"
+      },
+      "Matches": [
+        {
+          "MatchID": 732705720,
+          "MatchType": 1,
+          "TacticType": 1,
+          "TacticSkill": 5,
+          "RatingMidfield": 13,
+          "RatingRightDef": 38,
+          "RatingMidDef": 27,
+          "RatingLeftDef": 29,
+          "RatingRightAtt": 9,
+          "RatingMidAtt": 9,
+          "RatingLeftAtt": 10,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 24,
+          "RatingIndirectSetPiecesAtt": 10
+        }
+      ],
+      "PowerRating": 704,
+      "FanclubSize": 1492,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
@@ -1567,6 +1867,31 @@
     {
       "Season": 76,
       "Week": 7,
+      "League": {
+        "LeagueLevelUnitID": 38038,
+        "LeagueLevelUnitName": "VII.2"
+      },
+      "Matches": [
+        {
+          "MatchID": 732705725,
+          "MatchType": 1,
+          "TacticType": 7,
+          "TacticSkill": 11,
+          "RatingMidfield": 15,
+          "RatingRightDef": 17,
+          "RatingMidDef": 25,
+          "RatingLeftDef": 23,
+          "RatingRightAtt": 17,
+          "RatingMidAtt": 32,
+          "RatingLeftAtt": 18,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 21,
+          "RatingIndirectSetPiecesAtt": 19
+        }
+      ],
+      "PowerRating": 692,
+      "FanclubSize": 1486,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
@@ -1829,6 +2154,31 @@
     {
       "Season": 76,
       "Week": 8,
+      "League": {
+        "LeagueLevelUnitID": 38038,
+        "LeagueLevelUnitName": "VII.2"
+      },
+      "Matches": [
+        {
+          "MatchID": 732705730,
+          "MatchType": 1,
+          "TacticType": 7,
+          "TacticSkill": 10,
+          "RatingMidfield": 18,
+          "RatingRightDef": 21,
+          "RatingMidDef": 26,
+          "RatingLeftDef": 21,
+          "RatingRightAtt": 17,
+          "RatingMidAtt": 29,
+          "RatingLeftAtt": 15,
+          "TeamAttitude": 0,
+          "RatingIndirectSetPiecesDef": 21,
+          "RatingIndirectSetPiecesAtt": 21
+        }
+      ],
+      "PowerRating": 692,
+      "FanclubSize": 1476,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
@@ -2091,6 +2441,31 @@
     {
       "Season": 76,
       "Week": 9,
+      "League": {
+        "LeagueLevelUnitID": 38038,
+        "LeagueLevelUnitName": "VII.2"
+      },
+      "Matches": [
+        {
+          "MatchID": 732705735,
+          "MatchType": 1,
+          "TacticType": 1,
+          "TacticSkill": 5,
+          "RatingMidfield": 14,
+          "RatingRightDef": 22,
+          "RatingMidDef": 26,
+          "RatingLeftDef": 23,
+          "RatingRightAtt": 9,
+          "RatingMidAtt": 12,
+          "RatingLeftAtt": 10,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 21,
+          "RatingIndirectSetPiecesAtt": 15
+        }
+      ],
+      "PowerRating": 684,
+      "FanclubSize": 1478,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
@@ -2353,6 +2728,31 @@
     {
       "Season": 76,
       "Week": 10,
+      "League": {
+        "LeagueLevelUnitID": 38038,
+        "LeagueLevelUnitName": "VII.2"
+      },
+      "Matches": [
+        {
+          "MatchID": 732705740,
+          "MatchType": 1,
+          "TacticType": 7,
+          "TacticSkill": 10,
+          "RatingMidfield": 10,
+          "RatingRightDef": 20,
+          "RatingMidDef": 28,
+          "RatingLeftDef": 20,
+          "RatingRightAtt": 13,
+          "RatingMidAtt": 28,
+          "RatingLeftAtt": 17,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 22,
+          "RatingIndirectSetPiecesAtt": 22
+        }
+      ],
+      "PowerRating": 682,
+      "FanclubSize": 1483,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
@@ -2615,6 +3015,31 @@
     {
       "Season": 76,
       "Week": 11,
+      "League": {
+        "LeagueLevelUnitID": 38038,
+        "LeagueLevelUnitName": "VII.2"
+      },
+      "Matches": [
+        {
+          "MatchID": 732705742,
+          "MatchType": 1,
+          "TacticType": 1,
+          "TacticSkill": 5,
+          "RatingMidfield": 12,
+          "RatingRightDef": 16,
+          "RatingMidDef": 19,
+          "RatingLeftDef": 17,
+          "RatingRightAtt": 10,
+          "RatingMidAtt": 13,
+          "RatingLeftAtt": 12,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 22,
+          "RatingIndirectSetPiecesAtt": 17
+        }
+      ],
+      "PowerRating": 682,
+      "FanclubSize": 1493,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
@@ -2901,6 +3326,31 @@
     {
       "Season": 76,
       "Week": 12,
+      "League": {
+        "LeagueLevelUnitID": 38038,
+        "LeagueLevelUnitName": "VII.2"
+      },
+      "Matches": [
+        {
+          "MatchID": 732705743,
+          "MatchType": 1,
+          "TacticType": 7,
+          "TacticSkill": 10,
+          "RatingMidfield": 16,
+          "RatingRightDef": 16,
+          "RatingMidDef": 18,
+          "RatingLeftDef": 15,
+          "RatingRightAtt": 15,
+          "RatingMidAtt": 26,
+          "RatingLeftAtt": 17,
+          "TeamAttitude": 0,
+          "RatingIndirectSetPiecesDef": 22,
+          "RatingIndirectSetPiecesAtt": 19
+        }
+      ],
+      "PowerRating": 671,
+      "FanclubSize": 1489,
+      "ArenaCapacity": 50000,
       "StaffList": {
         "Trainer": {
           "TrainerId": 424219264,
