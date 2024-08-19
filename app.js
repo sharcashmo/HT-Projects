@@ -197,6 +197,9 @@ function goEpoch(epoch, data) {
     $(".next").addClass("grayed");
   }
 
+  $(".headerCell .league-name").text(
+    data.WeeklyData[epoch].League.LeagueLevelUnitName
+  );
   $(".headerCell .season").text(data.WeeklyData[epoch].Season);
   $(".headerCell .week").text(data.WeeklyData[epoch].Week);
 
