@@ -1,7 +1,7 @@
 "use strict";
 var folder = "./fhetoky-t75/";
 var chart;
-const chartElements = 8;
+const chartElements = 16;
 const intervalTime = 1000;
 
 $(document).ready(function () {
@@ -204,10 +204,16 @@ function goEpoch(epoch, data) {
   $(".aggregated-arena-capacity").text(
     ts(data.WeeklyData[epoch].ArenaCapacity)
   );
+
+  let ms = maxStats(data, epoch);
   if (data.WeeklyData[epoch].Matches.length > 0)
-    $(".aggregated-hatstats").text(ts(chartData(data, epoch)));
-  else $(".aggregated-hatstats").text("-");
-  $(".aggregated-power-rating").text(ts(data.WeeklyData[epoch].PowerRating));
+    $(".aggregated-hatstats").text(
+      ts(chartData(data, epoch)) + " / " + ts(ms.htstats)
+    );
+  else $(".aggregated-hatstats").text("- / " + ts(ms.htstats));
+  $(".aggregated-power-rating").text(
+    ts(data.WeeklyData[epoch].PowerRating) + " / " + ts(ms.powerRating)
+  );
 
   setStaff(data.WeeklyData[epoch].StaffList);
   setEpoch(data.PlayerList, data.WeeklyData[epoch].PlayerData);
@@ -471,6 +477,30 @@ function chartData(data, epoch) {
   });
 
   return htstats;
+}
+
+function maxStats(data, epoch) {
+  let htstats = null;
+  let powerRating = null;
+  let n = 0;
+
+  for (n = 0; n <= epoch; n++) {
+    data.WeeklyData[n].Matches.forEach((match) => {
+      htstats = Math.max(
+        match.RatingMidfield * 3 +
+          match.RatingRightDef +
+          match.RatingMidDef +
+          match.RatingLeftDef +
+          match.RatingRightAtt +
+          match.RatingMidAtt +
+          match.RatingLeftAtt,
+        htstats
+      );
+    });
+    powerRating = Math.max(powerRating, data.WeeklyData[n].PowerRating);
+  }
+
+  return { htstats: htstats, powerRating: powerRating };
 }
 
 function chartAddEpoch(data, epoch) {
