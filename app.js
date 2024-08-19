@@ -422,7 +422,7 @@ function chartCreate() {
     type: "line",
     data: data,
     options: {
-      responsive: false,
+      responsive: true,
       maintainAspectRatio: false,
     },
   };

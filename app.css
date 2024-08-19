@@ -276,5 +276,10 @@ table td {
 
 .chart {
   position: relative;
-  width: 50%;
+  width: 60%;
+}
+
+#htstats {
+  width: 350px !important;
+  height: 200px !important;
 }
