@@ -316,6 +316,11 @@ function setPlayer(cell, data, weeklyData) {
 
   cell.attr("id", data.PlayerID);
   $(".faceCard img", cell).attr("src", folder + data.PlayerID + ".png");
+  $("a", cell).attr(
+    "href",
+    "https://www.hattrick.org/goto.ashx?path=/Club/Players/Player.aspx?playerId=" +
+      data.PlayerID
+  );
   $(".player-number", cell).text(weeklyData.PlayerNumber);
   $(".player-name", cell).text(data.FirstName + " " + data.LastName);
   if (weeklyData.InjuryLevel < 0) {
