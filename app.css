@@ -239,6 +239,8 @@ table td {
 
 .playButtons {
   display: inline-block;
+  position: relative;
+  top: 4px;
 }
 
 .playButtons img {

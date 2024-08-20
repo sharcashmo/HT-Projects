@@ -3,9 +3,13 @@ var folder = "./fhetoky-t75/";
 var chart;
 const chartElements = 16;
 const intervalTime = 1000;
+const fastMultiplier = 2.5;
+var currentEpoch = 0;
+var interval;
+var playStatus = "stop";
 
 $(document).ready(function () {
-  fetch("./fhetoky-t75/data.json", { cache: "no-cache" })
+  fetch(folder + "data.json", { cache: "no-cache" })
     .then((res) => {
       if (!res.ok) {
         throw new Error(`HTTP error! Status: ${res.status}`);
@@ -127,75 +131,184 @@ function setBarColor(bar, level, maxLevel) {
   bar.addClass(names[l]);
 }
 
+function stopPlay() {
+  if (playStatus != "stop") {
+    playStatus = "stop";
+    clearInterval(interval);
+  }
+}
+
+function startPlay(data, fast) {
+  stopPlay();
+  playStatus = fast ? "fast" : "play";
+
+  interval = setInterval(function () {
+    if (currentEpoch < data.WeeklyData.length - 1) {
+      currentEpoch++;
+      chartAddEpoch(data, currentEpoch);
+      goEpoch(currentEpoch, data);
+    } else {
+      stopPlay();
+      updateButtons(data);
+    }
+  }, intervalTime / (fast ? fastMultiplier : 1));
+}
+
 function startEpoch(data) {
   let maxEpoch = data.WeeklyData.length - 1;
-  let currentEpoch = 0;
-  let interval;
 
+  currentEpoch = 0;
+  stopPlay();
+  updateButtons(data);
   chartCreate();
   chartAddEpoch(data, currentEpoch);
 
-  $(".back").on("click", function () {
-    if (currentEpoch > 0) {
-      chartRemoveEpoch(data, currentEpoch);
-      currentEpoch--;
-    }
+  $("#project-folder")
+    .off("change")
+    .on("change", function () {
+      if (!$(self).hasClass("grayed")) {
+        folder = "./" + $("#project-folder").val() + "/";
+        chart.destroy();
+        stopPlay();
+        updateButtons(data);
 
-    goEpoch(currentEpoch, data);
-  });
+        fetch(folder + "data.json", { cache: "no-cache" })
+          .then((res) => {
+            if (!res.ok) {
+              throw new Error(`HTTP error! Status: ${res.status}`);
+            }
+            return res.json();
+          })
+          .then((data) => startEpoch(data))
+          .catch((error) => console.error("Unable to fetch data:", error));
+      }
+    });
 
-  $(".next").on("click", function () {
-    if (currentEpoch < maxEpoch) {
-      currentEpoch++;
-      chartAddEpoch(data, currentEpoch);
-    }
+  $(".first")
+    .off("click")
+    .on("click", function () {
+      if (!$(self).hasClass("grayed")) {
+        let n = chartElements;
+        stopPlay();
+        while (currentEpoch > 0 && n > 0) {
+          chartRemoveEpoch(data, currentEpoch);
+          currentEpoch--;
+          n--;
+        }
 
-    goEpoch(currentEpoch, data);
-  });
-
-  $(".play").on("click", function () {
-    if ($(".play").hasClass("grayed")) {
-      clearInterval(interval);
-      $(".play").removeClass("grayed");
-    } else {
-      $(".play").addClass("grayed");
-
-      if (currentEpoch >= maxEpoch) {
-        currentEpoch = 0;
-        chartClear();
-        chartAddEpoch(data, currentEpoch);
         goEpoch(currentEpoch, data);
       }
+    });
 
-      interval = setInterval(function () {
+  $(".last")
+    .off("click")
+    .on("click", function () {
+      if (!$(self).hasClass("grayed")) {
+        let n = chartElements;
+        stopPlay();
+        while (currentEpoch < maxEpoch && n > 0) {
+          currentEpoch++;
+          n--;
+          chartAddEpoch(data, currentEpoch);
+        }
+
+        goEpoch(currentEpoch, data);
+      }
+    });
+
+  $(".back")
+    .off("click")
+    .on("click", function () {
+      if (!$(self).hasClass("grayed")) {
+        stopPlay();
+        if (currentEpoch > 0) {
+          chartRemoveEpoch(data, currentEpoch);
+          currentEpoch--;
+        }
+
+        goEpoch(currentEpoch, data);
+      }
+    });
+
+  $(".next")
+    .off("click")
+    .on("click", function () {
+      if (!$(self).hasClass("grayed")) {
+        stopPlay();
         if (currentEpoch < maxEpoch) {
           currentEpoch++;
           chartAddEpoch(data, currentEpoch);
-          goEpoch(currentEpoch, data);
-        } else {
-          clearInterval(interval);
-          $(".play").removeClass("grayed");
         }
-      }, intervalTime);
-    }
-  });
+
+        goEpoch(currentEpoch, data);
+      }
+    });
+
+  $(".play")
+    .off("click")
+    .on("click", function () {
+      if (!$(self).hasClass("grayed")) {
+        startPlay(data, false);
+      }
+    });
+
+  $(".fast")
+    .off("click")
+    .on("click", function () {
+      if (!$(self).hasClass("grayed")) {
+        startPlay(data, true);
+      }
+    });
+
+  $(".stop")
+    .off("click")
+    .on("click", function () {
+      if (!$(self).hasClass("grayed")) {
+        stopPlay();
+        updateButtons(data);
+      }
+    });
 
   goEpoch(currentEpoch, data);
+}
+
+function updateButtons(data) {
+  let maxEpoch = data.WeeklyData.length - 1;
+  $(".playButtons img").removeClass("grayed");
+
+  if (currentEpoch >= maxEpoch) {
+    if (playStatus != "stop") {
+      playStatus = "stop";
+      clearInterval(interval);
+    }
+    $(".play").addClass("grayed");
+    $(".fast").addClass("grayed");
+    $(".next").addClass("grayed");
+    $(".last").addClass("grayed");
+  }
+
+  if (currentEpoch == 0) {
+    $(".back").addClass("grayed");
+    $(".first").addClass("grayed");
+  }
+
+  switch (playStatus) {
+    case "stop":
+      $(".stop").addClass("grayed");
+      break;
+    case "play":
+      $(".play").addClass("grayed");
+      break;
+    case "fast":
+      $(".fast").addClass("grayed");
+      break;
+  }
 }
 
 function goEpoch(epoch, data) {
   $(".wrapper .cell").remove();
 
-  if (epoch == 0) {
-    $(".back").addClass("grayed");
-  } else {
-    $(".back").removeClass("grayed");
-  }
-  if (epoch < data.WeeklyData.length - 1) {
-    $(".next").removeClass("grayed");
-  } else {
-    $(".next").addClass("grayed");
-  }
+  updateButtons(data);
 
   $(".headerCell .league-name").text(
     data.WeeklyData[epoch].League.LeagueLevelUnitName
@@ -324,6 +437,7 @@ function setPlayer(cell, data, weeklyData) {
   let htmsValues = htms(weeklyData);
 
   cell.attr("id", data.PlayerID);
+  $(".flag").attr("src", "./flags/" + data.CountryID + ".png");
   $(".faceCard img", cell).attr("src", folder + data.PlayerID + ".png");
   $("a", cell).attr(
     "href",
@@ -458,9 +572,7 @@ function chartClear() {
 }
 
 function chartLabel(data, epoch) {
-  if (data.WeeklyData[epoch].Week == 1)
-    return "T" + data.WeeklyData[epoch].Season;
-  else return "J" + data.WeeklyData[epoch].Week;
+  return "J" + data.WeeklyData[epoch].Week;
 }
 
 function chartData(data, epoch) {

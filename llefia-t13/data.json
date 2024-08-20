@@ -1,0 +1,1000 @@
+{
+  "League": {
+    "LeagueID": 165,
+    "LeagueName": "Puerto Rico"
+  },
+  "WeeklyData": [
+    {
+      "Season": 13,
+      "Week": 3,
+      "League": {
+        "LeagueLevelUnitID": 258797,
+        "LeagueLevelUnitName": "IV.26"
+      },
+      "Matches": [
+        {
+          "MatchID": 736093793,
+          "MatchType": 3,
+          "TacticType": 2,
+          "TacticSkill": 8,
+          "RatingMidfield": 17,
+          "RatingRightDef": 32,
+          "RatingMidDef": 32,
+          "RatingLeftDef": 27,
+          "RatingRightAtt": 17,
+          "RatingMidAtt": 16,
+          "RatingLeftAtt": 21,
+          "TeamAttitude": 0,
+          "RatingIndirectSetPiecesDef": 23,
+          "RatingIndirectSetPiecesAtt": 18
+        },
+        {
+          "MatchID": 733956259,
+          "MatchType": 1,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 14,
+          "RatingRightDef": 18,
+          "RatingMidDef": 19,
+          "RatingLeftDef": 18,
+          "RatingRightAtt": 18,
+          "RatingMidAtt": 21,
+          "RatingLeftAtt": 19,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 19,
+          "RatingIndirectSetPiecesAtt": 18
+        }
+      ],
+      "PowerRating": 664,
+      "FanclubSize": 1369,
+      "ArenaCapacity": 43800,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 352936411,
+          "Name": "John Dyrman",
+          "Age": 47,
+          "AgeDays": 48,
+          "TrainerType": 2,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Manolo Cintrón",
+            "StaffId": 2412965,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Martín Galea",
+            "StaffId": 2415993,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Eric Padrón",
+            "StaffId": 2428668,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 485042823,
+          "PlayerNumber": 26,
+          "Age": 17,
+          "AgeDays": 0,
+          "TSI": 1070,
+          "Salary": 730,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 4,
+          "KeeperSkill": 5,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1000
+        }
+      ]
+    },
+    {
+      "Season": 13,
+      "Week": 4,
+      "League": {
+        "LeagueLevelUnitID": 258797,
+        "LeagueLevelUnitName": "IV.26"
+      },
+      "Matches": [
+        {
+          "MatchID": 736235554,
+          "MatchType": 3,
+          "TacticType": 2,
+          "TacticSkill": 9,
+          "RatingMidfield": 8,
+          "RatingRightDef": 33,
+          "RatingMidDef": 35,
+          "RatingLeftDef": 32,
+          "RatingRightAtt": 16,
+          "RatingMidAtt": 13,
+          "RatingLeftAtt": 16,
+          "TeamAttitude": 0,
+          "RatingIndirectSetPiecesDef": 22,
+          "RatingIndirectSetPiecesAtt": 16
+        },
+        {
+          "MatchID": 733956264,
+          "MatchType": 1,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 12,
+          "RatingRightDef": 21,
+          "RatingMidDef": 21,
+          "RatingLeftDef": 21,
+          "RatingRightAtt": 17,
+          "RatingMidAtt": 21,
+          "RatingLeftAtt": 18,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 19,
+          "RatingIndirectSetPiecesAtt": 18
+        }
+      ],
+      "PowerRating": 672,
+      "FanclubSize": 1383,
+      "ArenaCapacity": 43800,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 352936411,
+          "Name": "John Dyrman",
+          "Age": 47,
+          "AgeDays": 55,
+          "TrainerType": 2,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Manolo Cintrón",
+            "StaffId": 2412965,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Martín Galea",
+            "StaffId": 2415993,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Eric Padrón",
+            "StaffId": 2428668,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 485042823,
+          "PlayerNumber": 26,
+          "Age": 17,
+          "AgeDays": 6,
+          "TSI": 1570,
+          "Salary": 730,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 1,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 5,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1500
+        }
+      ]
+    },
+    {
+      "Season": 13,
+      "Week": 5,
+      "League": {
+        "LeagueLevelUnitID": 258797,
+        "LeagueLevelUnitName": "IV.26"
+      },
+      "Matches": [
+        {
+          "MatchID": 733956266,
+          "MatchType": 1,
+          "TacticType": 2,
+          "TacticSkill": 8,
+          "RatingMidfield": 11,
+          "RatingRightDef": 22,
+          "RatingMidDef": 27,
+          "RatingLeftDef": 25,
+          "RatingRightAtt": 14,
+          "RatingMidAtt": 12,
+          "RatingLeftAtt": 19,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 19,
+          "RatingIndirectSetPiecesAtt": 16
+        }
+      ],
+      "PowerRating": 672,
+      "FanclubSize": 1395,
+      "ArenaCapacity": 43800,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 352936411,
+          "Name": "John Dyrman",
+          "Age": 47,
+          "AgeDays": 62,
+          "TrainerType": 2,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Manolo Cintrón",
+            "StaffId": 2412965,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Martín Galea",
+            "StaffId": 2415993,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Eric Padrón",
+            "StaffId": 2428668,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 485042823,
+          "PlayerNumber": 26,
+          "Age": 17,
+          "AgeDays": 13,
+          "TSI": 2170,
+          "Salary": 730,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 1,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 6,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1700
+        }
+      ]
+    },
+    {
+      "Season": 13,
+      "Week": 6,
+      "League": {
+        "LeagueLevelUnitID": 258797,
+        "LeagueLevelUnitName": "IV.26"
+      },
+      "Matches": [
+        {
+          "MatchID": 733956270,
+          "MatchType": 1,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 11,
+          "RatingRightDef": 25,
+          "RatingMidDef": 25,
+          "RatingLeftDef": 28,
+          "RatingRightAtt": 15,
+          "RatingMidAtt": 17,
+          "RatingLeftAtt": 16,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 16
+        }
+      ],
+      "PowerRating": 672,
+      "FanclubSize": 1403,
+      "ArenaCapacity": 43800,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 352936411,
+          "Name": "John Dyrman",
+          "Age": 47,
+          "AgeDays": 69,
+          "TrainerType": 2,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Manolo Cintrón",
+            "StaffId": 2412965,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Martín Galea",
+            "StaffId": 2415993,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Eric Padrón",
+            "StaffId": 2428668,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 485042823,
+          "PlayerNumber": 26,
+          "Age": 17,
+          "AgeDays": 20,
+          "TSI": 2880,
+          "Salary": 730,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 1,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 6,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 5450
+        }
+      ]
+    },
+    {
+      "Season": 13,
+      "Week": 7,
+      "League": {
+        "LeagueLevelUnitID": 258797,
+        "LeagueLevelUnitName": "IV.26"
+      },
+      "Matches": [
+        {
+          "MatchID": 733956274,
+          "MatchType": 1,
+          "TacticType": 1,
+          "TacticSkill": 6,
+          "RatingMidfield": 13,
+          "RatingRightDef": 19,
+          "RatingMidDef": 23,
+          "RatingLeftDef": 23,
+          "RatingRightAtt": 12,
+          "RatingMidAtt": 13,
+          "RatingLeftAtt": 16,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 18,
+          "RatingIndirectSetPiecesAtt": 15
+        }
+      ],
+      "PowerRating": 672,
+      "FanclubSize": 1411,
+      "ArenaCapacity": 43800,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 352936411,
+          "Name": "John Dyrman",
+          "Age": 47,
+          "AgeDays": 76,
+          "TrainerType": 2,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Manolo Cintrón",
+            "StaffId": 2412965,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Martín Galea",
+            "StaffId": 2415993,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Eric Padrón",
+            "StaffId": 2428668,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 485042823,
+          "PlayerNumber": 26,
+          "Age": 17,
+          "AgeDays": 27,
+          "TSI": 3560,
+          "Salary": 730,
+          "PlayerForm": 7,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 1,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 7,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 27500
+        }
+      ]
+    },
+    {
+      "Season": 13,
+      "Week": 8,
+      "League": {
+        "LeagueLevelUnitID": 258797,
+        "LeagueLevelUnitName": "IV.26"
+      },
+      "Matches": [
+        {
+          "MatchID": 733956278,
+          "MatchType": 1,
+          "TacticType": 7,
+          "TacticSkill": 10,
+          "RatingMidfield": 11,
+          "RatingRightDef": 15,
+          "RatingMidDef": 20,
+          "RatingLeftDef": 12,
+          "RatingRightAtt": 16,
+          "RatingMidAtt": 17,
+          "RatingLeftAtt": 14,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 18,
+          "RatingIndirectSetPiecesAtt": 16
+        }
+      ],
+      "PowerRating": 661,
+      "FanclubSize": 1417,
+      "ArenaCapacity": 43800,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 352936411,
+          "Name": "John Dyrman",
+          "Age": 47,
+          "AgeDays": 83,
+          "TrainerType": 2,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Manolo Cintrón",
+            "StaffId": 2412965,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Martín Galea",
+            "StaffId": 2415993,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Eric Padrón",
+            "StaffId": 2428668,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 485042823,
+          "PlayerNumber": 26,
+          "Age": 17,
+          "AgeDays": 34,
+          "TSI": 4720,
+          "Salary": 730,
+          "PlayerForm": 7,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 1,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 7,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 10223
+        }
+      ]
+    },
+    {
+      "Season": 13,
+      "Week": 9,
+      "League": {
+        "LeagueLevelUnitID": 258797,
+        "LeagueLevelUnitName": "IV.26"
+      },
+      "Matches": [
+        {
+          "MatchID": 733956281,
+          "MatchType": 1,
+          "TacticType": 7,
+          "TacticSkill": 11,
+          "RatingMidfield": 13,
+          "RatingRightDef": 18,
+          "RatingMidDef": 19,
+          "RatingLeftDef": 19,
+          "RatingRightAtt": 15,
+          "RatingMidAtt": 18,
+          "RatingLeftAtt": 15,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 18,
+          "RatingIndirectSetPiecesAtt": 17
+        }
+      ],
+      "PowerRating": 661,
+      "FanclubSize": 1423,
+      "ArenaCapacity": 43800,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 352936411,
+          "Name": "John Dyrman",
+          "Age": 47,
+          "AgeDays": 90,
+          "TrainerType": 2,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Manolo Cintrón",
+            "StaffId": 2412965,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Martín Galea",
+            "StaffId": 2415993,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Eric Padrón",
+            "StaffId": 2428668,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 485042823,
+          "PlayerNumber": 26,
+          "Age": 17,
+          "AgeDays": 41,
+          "TSI": 5370,
+          "Salary": 730,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 1,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 8,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 165500
+        }
+      ]
+    },
+    {
+      "Season": 13,
+      "Week": 10,
+      "League": {
+        "LeagueLevelUnitID": 258797,
+        "LeagueLevelUnitName": "IV.26"
+      },
+      "Matches": [
+        {
+          "MatchID": 733956287,
+          "MatchType": 1,
+          "TacticType": 2,
+          "TacticSkill": 7,
+          "RatingMidfield": 12,
+          "RatingRightDef": 23,
+          "RatingMidDef": 30,
+          "RatingLeftDef": 21,
+          "RatingRightAtt": 14,
+          "RatingMidAtt": 12,
+          "RatingLeftAtt": 12,
+          "TeamAttitude": 0,
+          "RatingIndirectSetPiecesDef": 19,
+          "RatingIndirectSetPiecesAtt": 16
+        }
+      ],
+      "PowerRating": 658,
+      "FanclubSize": 1431,
+      "ArenaCapacity": 43800,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 352936411,
+          "Name": "John Dyrman",
+          "Age": 47,
+          "AgeDays": 97,
+          "TrainerType": 2,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Manolo Cintrón",
+            "StaffId": 2412965,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Martín Galea",
+            "StaffId": 2415993,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Eric Padrón",
+            "StaffId": 2428668,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 485042823,
+          "PlayerNumber": 26,
+          "Age": 17,
+          "AgeDays": 48,
+          "TSI": 6750,
+          "Salary": 730,
+          "PlayerForm": 7,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 1,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 8,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 155930
+        },
+        {
+          "PlayerID": 485877196,
+          "PlayerNumber": 29,
+          "Age": 17,
+          "AgeDays": 0,
+          "TSI": 2450,
+          "Salary": 1030,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 4,
+          "KeeperSkill": 6,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 2,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 5250
+        }
+      ]
+    },
+    {
+      "Season": 13,
+      "Week": 11,
+      "League": {
+        "LeagueLevelUnitID": 258797,
+        "LeagueLevelUnitName": "IV.26"
+      },
+      "Matches": [
+        {
+          "MatchID": 733956289,
+          "MatchType": 1,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 14,
+          "RatingRightDef": 15,
+          "RatingMidDef": 21,
+          "RatingLeftDef": 15,
+          "RatingRightAtt": 11,
+          "RatingMidAtt": 13,
+          "RatingLeftAtt": 11,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 18,
+          "RatingIndirectSetPiecesAtt": 15
+        }
+      ],
+      "PowerRating": 655,
+      "FanclubSize": 1440,
+      "ArenaCapacity": 43800,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 352936411,
+          "Name": "John Dyrman",
+          "Age": 47,
+          "AgeDays": 104,
+          "TrainerType": 2,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Manolo Cintrón",
+            "StaffId": 2412965,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Martín Galea",
+            "StaffId": 2415993,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Eric Padrón",
+            "StaffId": 2428668,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 485042823,
+          "PlayerNumber": 26,
+          "Age": 17,
+          "AgeDays": 55,
+          "TSI": 8160,
+          "Salary": 730,
+          "PlayerForm": 7,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 1,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 8,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 175400
+        },
+        {
+          "PlayerID": 485877196,
+          "PlayerNumber": 29,
+          "Age": 17,
+          "AgeDays": 2,
+          "TSI": 3170,
+          "Salary": 1030,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 7,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 2,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 32990
+        }
+      ]
+    },
+    {
+      "Season": 13,
+      "Week": 12,
+      "League": {
+        "LeagueLevelUnitID": 258797,
+        "LeagueLevelUnitName": "IV.26"
+      },
+      "Matches": [
+        {
+          "MatchID": 733956294,
+          "MatchType": 1,
+          "TacticType": 7,
+          "TacticSkill": 10,
+          "RatingMidfield": 12,
+          "RatingRightDef": 18,
+          "RatingMidDef": 18,
+          "RatingLeftDef": 21,
+          "RatingRightAtt": 11,
+          "RatingMidAtt": 12,
+          "RatingLeftAtt": 12,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 17,
+          "RatingIndirectSetPiecesAtt": 15
+        }
+      ],
+      "PowerRating": 655,
+      "FanclubSize": 1458,
+      "ArenaCapacity": 43800,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 352936411,
+          "Name": "John Dyrman",
+          "Age": 47,
+          "AgeDays": 111,
+          "TrainerType": 2,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Manolo Cintrón",
+            "StaffId": 2412965,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Martín Galea",
+            "StaffId": 2415993,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Eric Padrón",
+            "StaffId": 2428668,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 485042823,
+          "PlayerNumber": 26,
+          "Age": 17,
+          "AgeDays": 62,
+          "TSI": 9400,
+          "Salary": 730,
+          "PlayerForm": 7,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 1,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 9,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 472062
+        },
+        {
+          "PlayerID": 485877196,
+          "PlayerNumber": 29,
+          "Age": 17,
+          "AgeDays": 9,
+          "TSI": 3960,
+          "Salary": 1030,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 7,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 2,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 20900
+        }
+      ]
+    }
+  ],
+  "PlayerList": [
+    {
+      "PlayerID": 485042823,
+      "FirstName": "Diego",
+      "NickName": "",
+      "LastName": "Díaz",
+      "MotherClubBonus": true,
+      "IsAbroad": true,
+      "Agreeability": 1,
+      "Aggressiveness": 2,
+      "Honesty": 1,
+      "SpecialtyID": 2,
+      "CountryID": 165
+    },
+    {
+      "PlayerID": 485877196,
+      "FirstName": "Eddie",
+      "NickName": "",
+      "LastName": "Nieves",
+      "MotherClubBonus": true,
+      "IsAbroad": true,
+      "Agreeability": 2,
+      "Aggressiveness": 3,
+      "Honesty": 1,
+      "SpecialtyID": 0,
+      "CountryID": 165
+    }
+  ]
+}
