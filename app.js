@@ -9,6 +9,7 @@ var interval;
 var playStatus = "stop";
 
 $(document).ready(function () {
+  folder = "./" + $("#project-folder").val() + "/";
   fetch(folder + "data.json", { cache: "no-cache" })
     .then((res) => {
       if (!res.ok) {
@@ -162,6 +163,8 @@ function startEpoch(data) {
   updateButtons(data);
   chartCreate();
   chartAddEpoch(data, currentEpoch);
+
+  $("#favicon").attr("href", folder + "favicon.ico");
 
   $("#project-folder")
     .off("change")
@@ -606,8 +609,8 @@ function chartData(data, epoch) {
 }
 
 function maxStats(data, epoch) {
-  let htstats = null;
-  let powerRating = null;
+  let htstats = 0;
+  let powerRating = 0;
   let n = 0;
 
   for (n = 0; n <= epoch; n++) {

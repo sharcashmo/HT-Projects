@@ -1,0 +1,1598 @@
+{
+  "League": {
+    "LeagueID": 1003,
+    "LeagueName": "Homegrown League"
+  },
+  "WeeklyData": [
+    {
+      "Season": 0,
+      "Week": 15,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Matches": [],
+      "PowerRating": 0,
+      "FanclubSize": 564,
+      "ArenaCapacity": 15000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 2428102,
+          "Name": "Lucas Morales",
+          "Age": 43,
+          "AgeDays": 22,
+          "TrainerType": 0,
+          "Leadership": 4,
+          "TrainerSkillLevel": 3
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 17,
+          "AgeDays": 27,
+          "TSI": 1270,
+          "Salary": 800,
+          "PlayerForm": 6,
+          "Experience": 1,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 6,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1000
+        }
+      ]
+    },
+    {
+      "Season": 0,
+      "Week": 16,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Matches": [],
+      "PowerRating": 0,
+      "FanclubSize": 592,
+      "ArenaCapacity": 15000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 2428102,
+          "Name": "Lucas Morales",
+          "Age": 43,
+          "AgeDays": 29,
+          "TrainerType": 0,
+          "Leadership": 4,
+          "TrainerSkillLevel": 3
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 17,
+          "AgeDays": 34,
+          "TSI": 2370,
+          "Salary": 800,
+          "PlayerForm": 5,
+          "Experience": 1,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 6,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1000
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 17,
+          "AgeDays": 61,
+          "TSI": 2330,
+          "Salary": 990,
+          "PlayerForm": 7,
+          "Experience": 1,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 6,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1000
+        }
+      ]
+    },
+    {
+      "Season": 1,
+      "Week": 1,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Matches": [
+        {
+          "MatchID": 731626853,
+          "MatchType": 3,
+          "TacticType": 2,
+          "TacticSkill": 11,
+          "RatingMidfield": 8,
+          "RatingRightDef": 32,
+          "RatingMidDef": 37,
+          "RatingLeftDef": 32,
+          "RatingRightAtt": 11,
+          "RatingMidAtt": 8,
+          "RatingLeftAtt": 9,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 15
+        },
+        {
+          "MatchID": 733063405,
+          "MatchType": 1,
+          "TacticType": 4,
+          "TacticSkill": 10,
+          "RatingMidfield": 12,
+          "RatingRightDef": 24,
+          "RatingMidDef": 23,
+          "RatingLeftDef": 30,
+          "RatingRightAtt": 17,
+          "RatingMidAtt": 14,
+          "RatingLeftAtt": 16,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 21,
+          "RatingIndirectSetPiecesAtt": 16
+        }
+      ],
+      "PowerRating": 0,
+      "FanclubSize": 619,
+      "ArenaCapacity": 15000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 2428102,
+          "Name": "Lucas Morales",
+          "Age": 43,
+          "AgeDays": 36,
+          "TrainerType": 0,
+          "Leadership": 4,
+          "TrainerSkillLevel": 3
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 17,
+          "AgeDays": 41,
+          "TSI": 2570,
+          "Salary": 800,
+          "PlayerForm": 4,
+          "Experience": 1,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 7,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 229546
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 17,
+          "AgeDays": 68,
+          "TSI": 2940,
+          "Salary": 990,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 6,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1000
+        }
+      ]
+    },
+    {
+      "Season": 1,
+      "Week": 2,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Matches": [
+        {
+          "MatchID": 735905989,
+          "MatchType": 3,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 15,
+          "RatingRightDef": 26,
+          "RatingMidDef": 27,
+          "RatingLeftDef": 28,
+          "RatingRightAtt": 12,
+          "RatingMidAtt": 15,
+          "RatingLeftAtt": 13,
+          "TeamAttitude": 0,
+          "RatingIndirectSetPiecesDef": 19,
+          "RatingIndirectSetPiecesAtt": 15
+        },
+        {
+          "MatchID": 733063411,
+          "MatchType": 1,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 14,
+          "RatingRightDef": 28,
+          "RatingMidDef": 32,
+          "RatingLeftDef": 26,
+          "RatingRightAtt": 8,
+          "RatingMidAtt": 11,
+          "RatingLeftAtt": 13,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 19,
+          "RatingIndirectSetPiecesAtt": 16
+        }
+      ],
+      "PowerRating": 633,
+      "FanclubSize": 645,
+      "ArenaCapacity": 15000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 2428102,
+          "Name": "Lucas Morales",
+          "Age": 43,
+          "AgeDays": 43,
+          "TrainerType": 0,
+          "Leadership": 4,
+          "TrainerSkillLevel": 3
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 17,
+          "AgeDays": 48,
+          "TSI": 3410,
+          "Salary": 800,
+          "PlayerForm": 4,
+          "Experience": 1,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 7,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 355055
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 17,
+          "AgeDays": 75,
+          "TSI": 3610,
+          "Salary": 990,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 7,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1000
+        }
+      ]
+    },
+    {
+      "Season": 1,
+      "Week": 3,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Matches": [
+        {
+          "MatchID": 736087159,
+          "MatchType": 3,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 15,
+          "RatingRightDef": 26,
+          "RatingMidDef": 34,
+          "RatingLeftDef": 30,
+          "RatingRightAtt": 11,
+          "RatingMidAtt": 11,
+          "RatingLeftAtt": 14,
+          "TeamAttitude": 0,
+          "RatingIndirectSetPiecesDef": 21,
+          "RatingIndirectSetPiecesAtt": 17
+        },
+        {
+          "MatchID": 733063413,
+          "MatchType": 1,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 12,
+          "RatingRightDef": 31,
+          "RatingMidDef": 29,
+          "RatingLeftDef": 37,
+          "RatingRightAtt": 9,
+          "RatingMidAtt": 8,
+          "RatingLeftAtt": 13,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 19,
+          "RatingIndirectSetPiecesAtt": 15
+        }
+      ],
+      "PowerRating": 643,
+      "FanclubSize": 667,
+      "ArenaCapacity": 15000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 2428102,
+          "Name": "Lucas Morales",
+          "Age": 43,
+          "AgeDays": 50,
+          "TrainerType": 0,
+          "Leadership": 4,
+          "TrainerSkillLevel": 3
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 17,
+          "AgeDays": 55,
+          "TSI": 4280,
+          "Salary": 800,
+          "PlayerForm": 5,
+          "Experience": 1,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 8,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 446794
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 17,
+          "AgeDays": 82,
+          "TSI": 4350,
+          "Salary": 990,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 7,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 11600
+        }
+      ]
+    },
+    {
+      "Season": 1,
+      "Week": 4,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Matches": [
+        {
+          "MatchID": 736230550,
+          "MatchType": 3,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 18,
+          "RatingRightDef": 28,
+          "RatingMidDef": 25,
+          "RatingLeftDef": 28,
+          "RatingRightAtt": 11,
+          "RatingMidAtt": 12,
+          "RatingLeftAtt": 15,
+          "TeamAttitude": 0,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 16
+        },
+        {
+          "MatchID": 733063418,
+          "MatchType": 1,
+          "TacticType": 2,
+          "TacticSkill": 9,
+          "RatingMidfield": 12,
+          "RatingRightDef": 25,
+          "RatingMidDef": 25,
+          "RatingLeftDef": 23,
+          "RatingRightAtt": 10,
+          "RatingMidAtt": 11,
+          "RatingLeftAtt": 16,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 19,
+          "RatingIndirectSetPiecesAtt": 16
+        }
+      ],
+      "PowerRating": 638,
+      "FanclubSize": 689,
+      "ArenaCapacity": 15000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 238080084,
+          "Name": "Dennis de Borst",
+          "Age": 53,
+          "AgeDays": 98,
+          "TrainerType": 1,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 17,
+          "AgeDays": 62,
+          "TSI": 5260,
+          "Salary": 800,
+          "PlayerForm": 5,
+          "Experience": 1,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 8,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 440400
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 17,
+          "AgeDays": 89,
+          "TSI": 4970,
+          "Salary": 990,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 8,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 129072
+        }
+      ]
+    },
+    {
+      "Season": 1,
+      "Week": 5,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Matches": [
+        {
+          "MatchID": 736326294,
+          "MatchType": 3,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 14,
+          "RatingRightDef": 25,
+          "RatingMidDef": 26,
+          "RatingLeftDef": 23,
+          "RatingRightAtt": 10,
+          "RatingMidAtt": 11,
+          "RatingLeftAtt": 15,
+          "TeamAttitude": 0,
+          "RatingIndirectSetPiecesDef": 19,
+          "RatingIndirectSetPiecesAtt": 16
+        },
+        {
+          "MatchID": 733063422,
+          "MatchType": 1,
+          "TacticType": 2,
+          "TacticSkill": 11,
+          "RatingMidfield": 7,
+          "RatingRightDef": 22,
+          "RatingMidDef": 28,
+          "RatingLeftDef": 26,
+          "RatingRightAtt": 16,
+          "RatingMidAtt": 13,
+          "RatingLeftAtt": 13,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 16
+        }
+      ],
+      "PowerRating": 640,
+      "FanclubSize": 709,
+      "ArenaCapacity": 15000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 238080084,
+          "Name": "Dennis de Borst",
+          "Age": 53,
+          "AgeDays": 105,
+          "TrainerType": 1,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 17,
+          "AgeDays": 69,
+          "TSI": 6280,
+          "Salary": 800,
+          "PlayerForm": 5,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 8,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 440300
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 17,
+          "AgeDays": 96,
+          "TSI": 5410,
+          "Salary": 990,
+          "PlayerForm": 5,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 8,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 214066
+        }
+      ]
+    },
+    {
+      "Season": 1,
+      "Week": 6,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Matches": [
+        {
+          "MatchID": 733063427,
+          "MatchType": 1,
+          "TacticType": 2,
+          "TacticSkill": 11,
+          "RatingMidfield": 9,
+          "RatingRightDef": 26,
+          "RatingMidDef": 24,
+          "RatingLeftDef": 29,
+          "RatingRightAtt": 18,
+          "RatingMidAtt": 14,
+          "RatingLeftAtt": 16,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 16
+        }
+      ],
+      "PowerRating": 640,
+      "FanclubSize": 731,
+      "ArenaCapacity": 15000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 238080084,
+          "Name": "Dennis de Borst",
+          "Age": 54,
+          "AgeDays": 0,
+          "TrainerType": 1,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 17,
+          "AgeDays": 76,
+          "TSI": 7340,
+          "Salary": 800,
+          "PlayerForm": 5,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 9,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 816878
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 17,
+          "AgeDays": 103,
+          "TSI": 6970,
+          "Salary": 990,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 8,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 200912
+        }
+      ]
+    },
+    {
+      "Season": 1,
+      "Week": 7,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Matches": [
+        {
+          "MatchID": 733063431,
+          "MatchType": 1,
+          "TacticType": 2,
+          "TacticSkill": 9,
+          "RatingMidfield": 11,
+          "RatingRightDef": 25,
+          "RatingMidDef": 26,
+          "RatingLeftDef": 24,
+          "RatingRightAtt": 16,
+          "RatingMidAtt": 14,
+          "RatingLeftAtt": 12,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 19,
+          "RatingIndirectSetPiecesAtt": 16
+        }
+      ],
+      "PowerRating": 642,
+      "FanclubSize": 751,
+      "ArenaCapacity": 15000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 238080084,
+          "Name": "Dennis de Borst",
+          "Age": 54,
+          "AgeDays": 7,
+          "TrainerType": 1,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 17,
+          "AgeDays": 83,
+          "TSI": 8440,
+          "Salary": 800,
+          "PlayerForm": 5,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 9,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 904178
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 17,
+          "AgeDays": 110,
+          "TSI": 8460,
+          "Salary": 990,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 9,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 544100
+        }
+      ]
+    },
+    {
+      "Season": 1,
+      "Week": 8,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Matches": [
+        {
+          "MatchID": 733063432,
+          "MatchType": 1,
+          "TacticType": 7,
+          "TacticSkill": 9,
+          "RatingMidfield": 12,
+          "RatingRightDef": 13,
+          "RatingMidDef": 19,
+          "RatingLeftDef": 12,
+          "RatingRightAtt": 12,
+          "RatingMidAtt": 17,
+          "RatingLeftAtt": 15,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 17,
+          "RatingIndirectSetPiecesAtt": 15
+        }
+      ],
+      "PowerRating": 642,
+      "FanclubSize": 773,
+      "ArenaCapacity": 15000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 238080084,
+          "Name": "Dennis de Borst",
+          "Age": 54,
+          "AgeDays": 14,
+          "TrainerType": 1,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 17,
+          "AgeDays": 90,
+          "TSI": 7920,
+          "Salary": 800,
+          "PlayerForm": 5,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 1,
+          "InjuryLevel": 0,
+          "StaminaSkill": 6,
+          "KeeperSkill": 9,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1078300
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 18,
+          "AgeDays": 5,
+          "TSI": 9260,
+          "Salary": 2390,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 9,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 426948
+        }
+      ]
+    },
+    {
+      "Season": 1,
+      "Week": 9,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Matches": [
+        {
+          "MatchID": 733063436,
+          "MatchType": 1,
+          "TacticType": 2,
+          "TacticSkill": 11,
+          "RatingMidfield": 7,
+          "RatingRightDef": 25,
+          "RatingMidDef": 32,
+          "RatingLeftDef": 28,
+          "RatingRightAtt": 15,
+          "RatingMidAtt": 14,
+          "RatingLeftAtt": 15,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 21,
+          "RatingIndirectSetPiecesAtt": 17
+        }
+      ],
+      "PowerRating": 642,
+      "FanclubSize": 789,
+      "ArenaCapacity": 15000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 238080084,
+          "Name": "Dennis de Borst",
+          "Age": 54,
+          "AgeDays": 21,
+          "TrainerType": 1,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 17,
+          "AgeDays": 97,
+          "TSI": 9630,
+          "Salary": 800,
+          "PlayerForm": 5,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 2,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 9,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1331240
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 18,
+          "AgeDays": 12,
+          "TSI": 10790,
+          "Salary": 2390,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 9,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 361000
+        }
+      ]
+    },
+    {
+      "Season": 1,
+      "Week": 10,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Matches": [
+        {
+          "MatchID": 733063441,
+          "MatchType": 1,
+          "TacticType": 2,
+          "TacticSkill": 9,
+          "RatingMidfield": 13,
+          "RatingRightDef": 27,
+          "RatingMidDef": 30,
+          "RatingLeftDef": 25,
+          "RatingRightAtt": 12,
+          "RatingMidAtt": 12,
+          "RatingLeftAtt": 15,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 17
+        }
+      ],
+      "PowerRating": 642,
+      "FanclubSize": 815,
+      "ArenaCapacity": 15000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 238080084,
+          "Name": "Dennis de Borst",
+          "Age": 54,
+          "AgeDays": 28,
+          "TrainerType": 1,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 17,
+          "AgeDays": 104,
+          "TSI": 11050,
+          "Salary": 800,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 2,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 10,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1793686
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 18,
+          "AgeDays": 19,
+          "TSI": 11530,
+          "Salary": 2390,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 10,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 931763
+        }
+      ]
+    },
+    {
+      "Season": 1,
+      "Week": 11,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Matches": [
+        {
+          "MatchID": 733063445,
+          "MatchType": 1,
+          "TacticType": 4,
+          "TacticSkill": 9,
+          "RatingMidfield": 19,
+          "RatingRightDef": 21,
+          "RatingMidDef": 18,
+          "RatingLeftDef": 21,
+          "RatingRightAtt": 14,
+          "RatingMidAtt": 17,
+          "RatingLeftAtt": 18,
+          "TeamAttitude": 1,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 17
+        }
+      ],
+      "PowerRating": 643,
+      "FanclubSize": 835,
+      "ArenaCapacity": 15000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 238080084,
+          "Name": "Dennis de Borst",
+          "Age": 54,
+          "AgeDays": 35,
+          "TrainerType": 1,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 17,
+          "AgeDays": 111,
+          "TSI": 12230,
+          "Salary": 800,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 2,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 10,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1657186
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 18,
+          "AgeDays": 26,
+          "TSI": 12380,
+          "Salary": 2390,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 10,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 914100
+        }
+      ]
+    },
+    {
+      "Season": 1,
+      "Week": 12,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Matches": [
+        {
+          "MatchID": 733063451,
+          "MatchType": 1,
+          "TacticType": 2,
+          "TacticSkill": 10,
+          "RatingMidfield": 5,
+          "RatingRightDef": 30,
+          "RatingMidDef": 28,
+          "RatingLeftDef": 28,
+          "RatingRightAtt": 15,
+          "RatingMidAtt": 14,
+          "RatingLeftAtt": 17,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 16
+        }
+      ],
+      "PowerRating": 644,
+      "FanclubSize": 865,
+      "ArenaCapacity": 15000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 238080084,
+          "Name": "Dennis de Borst",
+          "Age": 54,
+          "AgeDays": 42,
+          "TrainerType": 1,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 18,
+          "AgeDays": 6,
+          "TSI": 13420,
+          "Salary": 3950,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 2,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 10,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1190100
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 18,
+          "AgeDays": 33,
+          "TSI": 14590,
+          "Salary": 2390,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 10,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 825804
+        }
+      ]
+    }
+  ],
+  "PlayerList": [
+    {
+      "PlayerID": 484166146,
+      "FirstName": "Ezequiel",
+      "NickName": "",
+      "LastName": "Sánchez",
+      "MotherClubBonus": true,
+      "IsAbroad": true,
+      "Agreeability": 4,
+      "Aggressiveness": 2,
+      "Honesty": 4,
+      "SpecialtyID": 3,
+      "CountryID": 165
+    },
+    {
+      "PlayerID": 484616932,
+      "FirstName": "Wilfredo",
+      "NickName": "",
+      "LastName": "Rodríguez",
+      "MotherClubBonus": true,
+      "IsAbroad": true,
+      "Agreeability": 2,
+      "Aggressiveness": 1,
+      "Honesty": 3,
+      "SpecialtyID": 0,
+      "CountryID": 165
+    }
+  ]
+}
