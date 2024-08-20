@@ -350,7 +350,9 @@ function setStaffSkill(cell, type, level) {
   let background = "img/" + staffTypes[type] + "_skillholder.png";
   let foreground = "img/" + staffTypes[type] + "_skillbar.png";
 
-  $(".skill", cell).css("background-image", "url(" + background + ")");
+  $(".skill", cell)
+    .css("background-image", "url(" + background + ")")
+    .show();
   $(".skill-level", cell).attr("src", foreground);
   $(".skill-level", cell).css("margin-left", "-" + (5 - level) * 14 + "px");
 }
@@ -378,11 +380,20 @@ function setStaff(staffList) {
   staffList.StaffMembers.forEach((sm) => {
     let s = $(".staffList .staff").eq(n);
 
-    $(".staff-name", s).text(sm.Name);
+    $(".staff-name", s).text(sm.Name).show();
     $(".faceCard img", s).attr("src", folder + sm.StaffId + ".png");
     setStaffSkill(s, sm.StaffType, sm.StaffLevel);
     n++;
   });
+
+  while (n < 4) {
+    let s = $(".staffList .staff").eq(n);
+
+    $(".staff-name", s).hide();
+    $(".faceCard img", s).attr("src", folder + 0 + ".png");
+    $(".skill", s).hide();
+    n++;
+  }
 }
 
 function setEpoch(playerList, playerEpoch) {
