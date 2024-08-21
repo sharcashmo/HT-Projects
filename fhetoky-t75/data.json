@@ -11,6 +11,11 @@
         "LeagueLevelUnitID": 14677,
         "LeagueLevelUnitName": "VI.359"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 5,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 726916992,
@@ -105,6 +110,11 @@
       "League": {
         "LeagueLevelUnitID": 14677,
         "LeagueLevelUnitName": "VI.359"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 8,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -224,6 +234,11 @@
       "League": {
         "LeagueLevelUnitID": 14677,
         "LeagueLevelUnitName": "VI.359"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 8,
+        "StaminaTrainingPart": 10
       },
       "Matches": [],
       "PowerRating": 765,
@@ -350,6 +365,11 @@
       "League": {
         "LeagueLevelUnitID": 14677,
         "LeagueLevelUnitName": "VI.359"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 8,
+        "StaminaTrainingPart": 10
       },
       "Matches": [],
       "PowerRating": 765,
@@ -500,6 +520,11 @@
       "League": {
         "LeagueLevelUnitID": 38038,
         "LeagueLevelUnitName": "VII.2"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 8,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -708,6 +733,11 @@
         "LeagueLevelUnitID": 38038,
         "LeagueLevelUnitName": "VII.2"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 8,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 735843890,
@@ -915,6 +945,11 @@
         "LeagueLevelUnitID": 38038,
         "LeagueLevelUnitName": "VII.2"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 8,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 736030692,
@@ -1121,6 +1156,11 @@
       "League": {
         "LeagueLevelUnitID": 38038,
         "LeagueLevelUnitName": "VII.2"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 8,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -1352,6 +1392,11 @@
       "League": {
         "LeagueLevelUnitID": 38038,
         "LeagueLevelUnitName": "VII.2"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 8,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -1607,6 +1652,11 @@
       "League": {
         "LeagueLevelUnitID": 38038,
         "LeagueLevelUnitName": "VII.2"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 8,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -1870,6 +1920,11 @@
       "League": {
         "LeagueLevelUnitID": 38038,
         "LeagueLevelUnitName": "VII.2"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 7,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -2158,6 +2213,11 @@
         "LeagueLevelUnitID": 38038,
         "LeagueLevelUnitName": "VII.2"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 7,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 732705730,
@@ -2444,6 +2504,11 @@
       "League": {
         "LeagueLevelUnitID": 38038,
         "LeagueLevelUnitName": "VII.2"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 7,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -2732,6 +2797,11 @@
         "LeagueLevelUnitID": 38038,
         "LeagueLevelUnitName": "VII.2"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 7,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 732705740,
@@ -3018,6 +3088,11 @@
       "League": {
         "LeagueLevelUnitID": 38038,
         "LeagueLevelUnitName": "VII.2"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 7,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -3330,6 +3405,11 @@
         "LeagueLevelUnitID": 38038,
         "LeagueLevelUnitName": "VII.2"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 7,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 732705743,
@@ -3620,6 +3700,322 @@
           "Leadership": 4,
           "Loyalty": 20,
           "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 7,
+          "ScorerSkill": 5,
+          "PassingSkill": 6,
+          "WingerSkill": 3,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 1,
+          "PlayerCategoryId": 5,
+          "EstimatedValue": 83510
+        }
+      ]
+    },
+    {
+      "Season": 76,
+      "Week": 13,
+      "League": {
+        "LeagueLevelUnitID": 38038,
+        "LeagueLevelUnitName": "VII.2"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 7,
+        "StaminaTrainingPart": 10
+      },
+      "Matches": [
+        {
+          "MatchID": 0,
+          "MatchType": 1,
+          "TacticType": 7,
+          "TacticSkill": 10,
+          "RatingMidfield": 16,
+          "RatingRightDef": 16,
+          "RatingMidDef": 18,
+          "RatingLeftDef": 15,
+          "RatingRightAtt": 15,
+          "RatingMidAtt": 26,
+          "RatingLeftAtt": 17,
+          "TeamAttitude": 0,
+          "RatingIndirectSetPiecesDef": 22,
+          "RatingIndirectSetPiecesAtt": 19
+        }
+      ],
+      "PowerRating": 673,
+      "FanclubSize": 1485,
+      "ArenaCapacity": 50000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 424219264,
+          "Name": "Liviu-Dorin Boghian",
+          "Age": 42,
+          "AgeDays": 2,
+          "TrainerType": 2,
+          "Leadership": 6,
+          "TrainerSkillLevel": 5
+        },
+        "StaffMembers": [
+          {
+            "Name": "José Ulibarri",
+            "StaffId": 135190,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+
+          {
+            "Name": "Ponç Vilajuliu",
+            "StaffId": 1549558,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+
+          {
+            "Name": "José María Maestre Vargas",
+            "StaffId": 160777,
+            "StaffType": 2,
+            "StaffLevel": 5
+          },
+
+          {
+            "Name": "Julio Miró",
+            "StaffId": 648121,
+            "StaffType": 6,
+            "StaffLevel": 4
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 483691032,
+          "PlayerNumber": 1,
+          "Age": 17,
+          "AgeDays": 109,
+          "TSI": 750,
+          "Salary": 250,
+          "PlayerForm": 3,
+          "Experience": 2,
+          "Leadership": 5,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 6,
+          "ScorerSkill": 3,
+          "PassingSkill": 5,
+          "WingerSkill": 4,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 4,
+          "PlayerCategoryId": 5,
+          "EstimatedValue": 1100
+        },
+        {
+          "PlayerID": 483862632,
+          "PlayerNumber": 2,
+          "Age": 17,
+          "AgeDays": 105,
+          "TSI": 450,
+          "Salary": 250,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 6,
+          "ScorerSkill": 3,
+          "PassingSkill": 4,
+          "WingerSkill": 4,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 1,
+          "PlayerCategoryId": 5,
+          "EstimatedValue": 1100
+        },
+        {
+          "PlayerID": 484588518,
+          "PlayerNumber": 3,
+          "Age": 17,
+          "AgeDays": 96,
+          "TSI": 1750,
+          "Salary": 290,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 2,
+          "PassingSkill": 6,
+          "WingerSkill": 5,
+          "DefenderSkill": 6,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 5,
+          "EstimatedValue": 72925
+        },
+        {
+          "PlayerID": 484641768,
+          "PlayerNumber": 4,
+          "Age": 18,
+          "AgeDays": 4,
+          "TSI": 1250,
+          "Salary": 250,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 5,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 6,
+          "ScorerSkill": 3,
+          "PassingSkill": 7,
+          "WingerSkill": 3,
+          "DefenderSkill": 3,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 5,
+          "EstimatedValue": 2688
+        },
+        {
+          "PlayerID": 484882818,
+          "PlayerNumber": 5,
+          "Age": 17,
+          "AgeDays": 85,
+          "TSI": 2470,
+          "Salary": 340,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 7,
+          "ScorerSkill": 2,
+          "PassingSkill": 6,
+          "WingerSkill": 7,
+          "DefenderSkill": 3,
+          "SetPiecesSkill": 1,
+          "PlayerCategoryId": 4,
+          "EstimatedValue": 167322
+        },
+        {
+          "PlayerID": 485150827,
+          "PlayerNumber": 6,
+          "Age": 18,
+          "AgeDays": 53,
+          "TSI": 1030,
+          "Salary": 320,
+          "PlayerForm": 8,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 6,
+          "ScorerSkill": 4,
+          "PassingSkill": 4,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 4,
+          "EstimatedValue": 4630
+        },
+        {
+          "PlayerID": 485383002,
+          "PlayerNumber": 7,
+          "Age": 17,
+          "AgeDays": 51,
+          "TSI": 3620,
+          "Salary": 430,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 5,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 7,
+          "ScorerSkill": 3,
+          "PassingSkill": 7,
+          "WingerSkill": 4,
+          "DefenderSkill": 6,
+          "SetPiecesSkill": 1,
+          "PlayerCategoryId": 5,
+          "EstimatedValue": 277706
+        },
+        {
+          "PlayerID": 485467173,
+          "PlayerNumber": 8,
+          "Age": 18,
+          "AgeDays": 42,
+          "TSI": 230,
+          "Salary": 270,
+          "PlayerForm": 7,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 4,
+          "ScorerSkill": 2,
+          "PassingSkill": 4,
+          "WingerSkill": 2,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 5,
+          "EstimatedValue": 1300
+        },
+        {
+          "PlayerID": 485578630,
+          "PlayerNumber": 9,
+          "Age": 17,
+          "AgeDays": 37,
+          "TSI": 2030,
+          "Salary": 290,
+          "PlayerForm": 7,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 3,
+          "ScorerSkill": 5,
+          "PassingSkill": 7,
+          "WingerSkill": 4,
+          "DefenderSkill": 6,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 5,
+          "EstimatedValue": 7660
+        },
+        {
+          "PlayerID": 485977792,
+          "PlayerNumber": 10,
+          "Age": 17,
+          "AgeDays": 79,
+          "TSI": 2020,
+          "Salary": 450,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 1,
           "InjuryLevel": -1,
           "StaminaSkill": 5,
           "KeeperSkill": 1,

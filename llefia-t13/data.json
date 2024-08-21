@@ -11,6 +11,11 @@
         "LeagueLevelUnitID": 258797,
         "LeagueLevelUnitName": "IV.26"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 736093793,
@@ -112,6 +117,11 @@
       "League": {
         "LeagueLevelUnitID": 258797,
         "LeagueLevelUnitName": "IV.26"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -215,6 +225,11 @@
         "LeagueLevelUnitID": 258797,
         "LeagueLevelUnitName": "IV.26"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 733956266,
@@ -300,6 +315,11 @@
       "League": {
         "LeagueLevelUnitID": 258797,
         "LeagueLevelUnitName": "IV.26"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -387,6 +407,11 @@
         "LeagueLevelUnitID": 258797,
         "LeagueLevelUnitName": "IV.26"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 733956274,
@@ -472,6 +497,11 @@
       "League": {
         "LeagueLevelUnitID": 258797,
         "LeagueLevelUnitName": "IV.26"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -559,6 +589,11 @@
         "LeagueLevelUnitID": 258797,
         "LeagueLevelUnitName": "IV.26"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 733956281,
@@ -644,6 +679,11 @@
       "League": {
         "LeagueLevelUnitID": 258797,
         "LeagueLevelUnitName": "IV.26"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -755,6 +795,11 @@
         "LeagueLevelUnitID": 258797,
         "LeagueLevelUnitName": "IV.26"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 733956289,
@@ -865,6 +910,11 @@
         "LeagueLevelUnitID": 258797,
         "LeagueLevelUnitName": "IV.26"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 733956294,
@@ -947,6 +997,121 @@
           "PlayerNumber": 29,
           "Age": 17,
           "AgeDays": 9,
+          "TSI": 3960,
+          "Salary": 1030,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 7,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 2,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 20900
+        }
+      ]
+    },
+    {
+      "Season": 13,
+      "Week": 13,
+      "League": {
+        "LeagueLevelUnitID": 258797,
+        "LeagueLevelUnitName": "IV.26"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
+      "Matches": [
+        {
+          "MatchID": 0,
+          "MatchType": 1,
+          "TacticType": 7,
+          "TacticSkill": 10,
+          "RatingMidfield": 12,
+          "RatingRightDef": 18,
+          "RatingMidDef": 18,
+          "RatingLeftDef": 21,
+          "RatingRightAtt": 11,
+          "RatingMidAtt": 12,
+          "RatingLeftAtt": 12,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 17,
+          "RatingIndirectSetPiecesAtt": 15
+        }
+      ],
+      "PowerRating": 646,
+      "FanclubSize": 1458,
+      "ArenaCapacity": 43800,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 352936411,
+          "Name": "John Dyrman",
+          "Age": 48,
+          "AgeDays": 6,
+          "TrainerType": 2,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Manolo Cintrón",
+            "StaffId": 2412965,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Martín Galea",
+            "StaffId": 2415993,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Eric Padrón",
+            "StaffId": 2428668,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 485042823,
+          "PlayerNumber": 26,
+          "Age": 17,
+          "AgeDays": 69,
+          "TSI": 9400,
+          "Salary": 730,
+          "PlayerForm": 7,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 1,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 9,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 472062
+        },
+        {
+          "PlayerID": 485877196,
+          "PlayerNumber": 29,
+          "Age": 17,
+          "AgeDays": 16,
           "TSI": 3960,
           "Salary": 1030,
           "PlayerForm": 6,

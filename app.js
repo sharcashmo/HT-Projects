@@ -1,12 +1,30 @@
 "use strict";
 var folder = "./fhetoky-t75/";
 var chart;
+var trainingChart;
 const chartElements = 16;
 const intervalTime = 1000;
 const fastMultiplier = 2.5;
 var currentEpoch = 0;
 var interval;
 var playStatus = "stop";
+var trainingTypes = [
+  "General",
+  "Condición",
+  "Balón parado",
+  "Defensa",
+  "Anotación",
+  "Lateral",
+  "Anotación y balón parado",
+  "Pases",
+  "Jugadas",
+  "Portería",
+  "Pases (defensas y medios)",
+  "Defensa (defensas y medios)",
+  "Lateral (extemos y delanteros)",
+];
+
+Chart.register(ChartDataLabels);
 
 $(document).ready(function () {
   folder = "./" + $("#project-folder").val() + "/";
@@ -172,6 +190,7 @@ function startEpoch(data) {
       if (!$(self).hasClass("grayed")) {
         folder = "./" + $("#project-folder").val() + "/";
         chart.destroy();
+        trainingChart.destroy();
         stopPlay();
         updateButtons(data);
 
@@ -332,6 +351,15 @@ function goEpoch(epoch, data) {
   else $(".aggregated-hatstats").text("- / " + ts(ms.htstats));
   $(".aggregated-power-rating").text(
     ts(data.WeeklyData[epoch].PowerRating) + " / " + ts(ms.powerRating)
+  );
+
+  $(".training-number").text(epoch);
+  $(".training-type").text(
+    trainingTypes[data.WeeklyData[epoch].Training.TrainingType]
+  );
+  $(".training-level").text(data.WeeklyData[epoch].Training.TrainingLevel);
+  $(".stamina-training-part").text(
+    data.WeeklyData[epoch].Training.StaminaTrainingPart
   );
 
   setStaff(data.WeeklyData[epoch].StaffList);
@@ -566,11 +594,73 @@ function chartCreate() {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      plugins: {
+        datalabels: {
+          display: false,
+        },
+      },
     },
   };
 
   chart = new Chart(graph, config);
-  console.log("Create chart" + chart);
+
+  trainingChartCreate();
+}
+
+function trainingChartCreate() {
+  const graph = $("#training");
+  const data = {
+    labels: [],
+    datasets: [
+      {
+        label: "Entrenamiento",
+        maxBarThickness: 20,
+        borderRadius: 5,
+        data: [],
+        tension: 0.4,
+        backgroundColor: [
+          "rgba(255, 99, 132, 1)",
+          "rgba(255, 159, 64, 1)",
+          "rgba(255, 205, 86, 1)",
+          "rgba(75, 192, 192, 1)",
+          "rgba(54, 162, 235, 1)",
+          "rgba(153, 102, 255, 1)",
+          "rgba(201, 203, 207, 1)",
+        ],
+      },
+    ],
+  };
+  const config = {
+    type: "bar",
+    data: data,
+    options: {
+      indexAxis: "y",
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: {
+          display: false,
+        },
+        y: {
+          grid: {
+            display: false,
+          },
+        },
+      },
+      plugins: {
+        datalabels: {
+          color: "white",
+          anchor: "end",
+          align: "start",
+          font: {
+            weight: "bold",
+          },
+        },
+      },
+    },
+  };
+
+  trainingChart = new Chart(graph, config);
 }
 
 function chartClear() {
@@ -611,6 +701,7 @@ function chartData(data, epoch) {
 function maxStats(data, epoch) {
   let htstats = 0;
   let powerRating = 0;
+
   let n = 0;
 
   for (n = 0; n <= epoch; n++) {
@@ -642,12 +733,37 @@ function chartAddEpoch(data, epoch) {
     chart.config.data.datasets[0].data.shift();
     chart.update();
   }
+
+  if (epoch > 0) {
+    let trainingType = data.WeeklyData[epoch].Training.TrainingType;
+    let trainingLabel = trainingTypes[trainingType];
+    let i = trainingChart.config.data.labels.indexOf(trainingLabel);
+
+    if (i < 0) {
+      trainingChart.config.data.labels.push(trainingLabel);
+      trainingChart.config.data.datasets[0].data.push(1);
+    } else {
+      trainingChart.config.data.datasets[0].data[i]++;
+    }
+
+    trainingChart.update();
+  }
 }
 
 function chartRemoveEpoch(data, epoch) {
   chart.config.data.datasets[0].data.pop();
   chart.config.data.labels.pop();
   chart.update();
+
+  let trainingType = data.WeeklyData[epoch].Training.TrainingType;
+  let trainingLabel = trainingTypes[trainingType];
+  let i = trainingChart.config.data.labels.indexOf(trainingLabel);
+  trainingChart.config.data.datasets[0].data[i]--;
+  if (trainingChart.config.data.datasets[0].data[i] <= 0) {
+    trainingChart.config.data.datasets[0].data.pop();
+    trainingChart.config.data.labels.pop();
+  }
+  trainingChart.update();
 
   let e = epoch - chartElements;
 

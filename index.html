@@ -9,6 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.1.1/chart.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
     <script charset="utf-8" src="app.js"></script>
     <link
       id="favicon"
@@ -435,6 +436,22 @@
               </h3>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="headerCell">
+        <h3>
+          <div class="training-flex">
+            <div>
+              Semana <span class="training-number"></span>:
+              <span class="training-type"></span>
+            </div>
+            <div>Intensidad: <span class="training-level"></span>%</div>
+            <div>Resistencia: <span class="stamina-training-part"></span>%</div>
+          </div>
+        </h3>
+
+        <div class="training-chart">
+          <canvas id="training"></canvas>
         </div>
       </div>
     </div>

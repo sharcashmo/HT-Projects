@@ -11,6 +11,11 @@
         "LeagueLevelUnitID": 266740,
         "LeagueLevelUnitName": "V.57"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [],
       "PowerRating": 0,
       "FanclubSize": 564,
@@ -79,6 +84,11 @@
       "League": {
         "LeagueLevelUnitID": 266740,
         "LeagueLevelUnitName": "V.57"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
       },
       "Matches": [],
       "PowerRating": 0,
@@ -172,6 +182,11 @@
       "League": {
         "LeagueLevelUnitID": 266740,
         "LeagueLevelUnitName": "V.57"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -299,6 +314,11 @@
         "LeagueLevelUnitID": 266740,
         "LeagueLevelUnitName": "V.57"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 735905989,
@@ -424,6 +444,11 @@
       "League": {
         "LeagueLevelUnitID": 266740,
         "LeagueLevelUnitName": "V.57"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -551,6 +576,11 @@
         "LeagueLevelUnitID": 266740,
         "LeagueLevelUnitName": "V.57"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 736230550,
@@ -676,6 +706,11 @@
       "League": {
         "LeagueLevelUnitID": 266740,
         "LeagueLevelUnitName": "V.57"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -803,6 +838,11 @@
         "LeagueLevelUnitID": 266740,
         "LeagueLevelUnitName": "V.57"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 733063427,
@@ -912,6 +952,11 @@
       "League": {
         "LeagueLevelUnitID": 266740,
         "LeagueLevelUnitName": "V.57"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -1023,6 +1068,11 @@
         "LeagueLevelUnitID": 266740,
         "LeagueLevelUnitName": "V.57"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 733063432,
@@ -1132,6 +1182,11 @@
       "League": {
         "LeagueLevelUnitID": 266740,
         "LeagueLevelUnitName": "V.57"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -1243,6 +1298,11 @@
         "LeagueLevelUnitID": 266740,
         "LeagueLevelUnitName": "V.57"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 733063441,
@@ -1352,6 +1412,11 @@
       "League": {
         "LeagueLevelUnitID": 266740,
         "LeagueLevelUnitName": "V.57"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
       },
       "Matches": [
         {
@@ -1463,6 +1528,11 @@
         "LeagueLevelUnitID": 266740,
         "LeagueLevelUnitName": "V.57"
       },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
       "Matches": [
         {
           "MatchID": 733063451,
@@ -1545,6 +1615,121 @@
           "PlayerNumber": 25,
           "Age": 18,
           "AgeDays": 33,
+          "TSI": 14590,
+          "Salary": 2390,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 10,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 825804
+        }
+      ]
+    },
+    {
+      "Season": 1,
+      "Week": 13,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
+      "Matches": [
+        {
+          "MatchID": 0,
+          "MatchType": 1,
+          "TacticType": 2,
+          "TacticSkill": 10,
+          "RatingMidfield": 5,
+          "RatingRightDef": 30,
+          "RatingMidDef": 28,
+          "RatingLeftDef": 28,
+          "RatingRightAtt": 15,
+          "RatingMidAtt": 14,
+          "RatingLeftAtt": 17,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 16
+        }
+      ],
+      "PowerRating": 637,
+      "FanclubSize": 865,
+      "ArenaCapacity": 17000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 238080084,
+          "Name": "Dennis de Borst",
+          "Age": 54,
+          "AgeDays": 49,
+          "TrainerType": 1,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 18,
+          "AgeDays": 13,
+          "TSI": 13420,
+          "Salary": 3950,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 2,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 10,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1190100
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 18,
+          "AgeDays": 40,
           "TSI": 14590,
           "Salary": 2390,
           "PlayerForm": 6,

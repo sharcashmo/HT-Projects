@@ -281,7 +281,23 @@ table td {
   width: 60%;
 }
 
+.training-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.training-chart {
+  position: relative;
+  width: 100%;
+}
+
 #htstats {
   width: 350px !important;
+  height: 200px !important;
+}
+
+#training {
+  width: 100% !important;
   height: 200px !important;
 }
