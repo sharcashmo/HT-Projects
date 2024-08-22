@@ -1648,26 +1648,9 @@
         "TrainingType": 9,
         "StaminaTrainingPart": 10
       },
-      "Matches": [
-        {
-          "MatchID": 0,
-          "MatchType": 1,
-          "TacticType": 2,
-          "TacticSkill": 10,
-          "RatingMidfield": 5,
-          "RatingRightDef": 30,
-          "RatingMidDef": 28,
-          "RatingLeftDef": 28,
-          "RatingRightAtt": 15,
-          "RatingMidAtt": 14,
-          "RatingLeftAtt": 17,
-          "TeamAttitude": -1,
-          "RatingIndirectSetPiecesDef": 20,
-          "RatingIndirectSetPiecesAtt": 16
-        }
-      ],
+      "Matches": [],
       "PowerRating": 637,
-      "FanclubSize": 865,
+      "FanclubSize": 886,
       "ArenaCapacity": 17000,
       "StaffList": {
         "Trainer": {
@@ -1713,7 +1696,7 @@
           "Leadership": 2,
           "Loyalty": 20,
           "Cards": 2,
-          "InjuryLevel": -1,
+          "InjuryLevel": 1,
           "StaminaSkill": 6,
           "KeeperSkill": 10,
           "PlaymakerSkill": 5,
