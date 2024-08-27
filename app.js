@@ -27,7 +27,17 @@ var trainingTypes = [
 Chart.register(ChartDataLabels);
 
 $(document).ready(function () {
-  folder = "./" + $("#project-folder").val() + "/";
+  const urlSearchParams = new URLSearchParams(window.location.search);
+
+  if (urlSearchParams.has("projectid")) {
+    $("#project-folder").val(urlSearchParams.get("projectid"));
+    $("#project-folder").prop("disabled", true);
+    $("#project-folder").hide();
+    folder = "./" + urlSearchParams.get("projectid") + "/";
+  } else {
+    folder = "./" + $("#project-folder").val() + "/";
+  }
+
   fetch(folder + "data.json", { cache: "no-cache" })
     .then((res) => {
       if (!res.ok) {
