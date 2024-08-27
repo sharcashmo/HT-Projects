@@ -1648,7 +1648,24 @@
         "TrainingType": 9,
         "StaminaTrainingPart": 10
       },
-      "Matches": [],
+      "Matches": [
+        {
+          "MatchID": 733063452,
+          "MatchType": 1,
+          "TacticType": 2,
+          "TacticSkill": 6,
+          "RatingMidfield": 13,
+          "RatingRightDef": 22,
+          "RatingMidDef": 23,
+          "RatingLeftDef": 24,
+          "RatingRightAtt": 17,
+          "RatingMidAtt": 19,
+          "RatingLeftAtt": 19,
+          "TeamAttitude": 1,
+          "RatingIndirectSetPiecesDef": 19,
+          "RatingIndirectSetPiecesAtt": 16
+        }
+      ],
       "PowerRating": 637,
       "FanclubSize": 886,
       "ArenaCapacity": 17000,
@@ -1689,7 +1706,7 @@
           "PlayerNumber": 20,
           "Age": 18,
           "AgeDays": 13,
-          "TSI": 13420,
+          "TSI": 9780,
           "Salary": 3950,
           "PlayerForm": 6,
           "Experience": 2,
@@ -1706,16 +1723,16 @@
           "DefenderSkill": 5,
           "SetPiecesSkill": 5,
           "PlayerCategoryId": 1,
-          "EstimatedValue": 1190100
+          "EstimatedValue": 1177000
         },
         {
           "PlayerID": 484616932,
           "PlayerNumber": 25,
           "Age": 18,
           "AgeDays": 40,
-          "TSI": 14590,
+          "TSI": 16620,
           "Salary": 2390,
-          "PlayerForm": 6,
+          "PlayerForm": 7,
           "Experience": 2,
           "Leadership": 3,
           "Loyalty": 20,
@@ -1730,7 +1747,122 @@
           "DefenderSkill": 4,
           "SetPiecesSkill": 3,
           "PlayerCategoryId": 1,
-          "EstimatedValue": 825804
+          "EstimatedValue": 757750
+        }
+      ]
+    },
+    {
+      "Season": 1,
+      "Week": 14,
+      "League": {
+        "LeagueLevelUnitID": 266740,
+        "LeagueLevelUnitName": "V.57"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
+      "Matches": [
+        {
+          "MatchID": 0,
+          "MatchType": 1,
+          "TacticType": 2,
+          "TacticSkill": 6,
+          "RatingMidfield": 13,
+          "RatingRightDef": 22,
+          "RatingMidDef": 23,
+          "RatingLeftDef": 24,
+          "RatingRightAtt": 17,
+          "RatingMidAtt": 19,
+          "RatingLeftAtt": 19,
+          "TeamAttitude": 1,
+          "RatingIndirectSetPiecesDef": 19,
+          "RatingIndirectSetPiecesAtt": 16
+        }
+      ],
+      "PowerRating": 639,
+      "FanclubSize": 901,
+      "ArenaCapacity": 17000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 238080084,
+          "Name": "Dennis de Borst",
+          "Age": 54,
+          "AgeDays": 56,
+          "TrainerType": 1,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Carlos Betancourt",
+            "StaffId": 2440289,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 18,
+          "AgeDays": 20,
+          "TSI": 9780,
+          "Salary": 3950,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 2,
+          "InjuryLevel": 0,
+          "StaminaSkill": 6,
+          "KeeperSkill": 10,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1177000
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 18,
+          "AgeDays": 47,
+          "TSI": 16620,
+          "Salary": 2390,
+          "PlayerForm": 7,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 10,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 757750
         }
       ]
     }
