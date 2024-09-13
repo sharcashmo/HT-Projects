@@ -1963,6 +1963,104 @@
           "EstimatedValue": 980210
         }
       ]
+    },
+    {
+      "Season": 1,
+      "Week": 16,
+      "League": {
+        "LeagueLevelUnitID": 266821,
+        "LeagueLevelUnitName": "V.138"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
+      "Matches": [],
+      "PowerRating": 637,
+      "FanclubSize": 949,
+      "ArenaCapacity": 17000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 238080084,
+          "Name": "Dennis de Borst",
+          "Age": 54,
+          "AgeDays": 70,
+          "TrainerType": 1,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Yavieric Gonzalez",
+            "StaffId": 2429102,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Juan Carlos Rivera",
+            "StaffId": 2434002,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Jorge Ojeda",
+            "StaffId": 2659033,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 18,
+          "AgeDays": 34,
+          "TSI": 18380,
+          "Salary": 3950,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 2,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 11,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1330494
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 18,
+          "AgeDays": 61,
+          "TSI": 22180,
+          "Salary": 2390,
+          "PlayerForm": 8,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 11,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 900088
+        }
+      ]
     }
   ],
   "PlayerList": [
