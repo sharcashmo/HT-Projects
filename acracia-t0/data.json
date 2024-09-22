@@ -2059,6 +2059,185 @@
           "SetPiecesSkill": 3,
           "PlayerCategoryId": 1,
           "EstimatedValue": 900088
+        },
+        {
+          "PlayerID": 487434467,
+          "PlayerNumber": 32,
+          "Age": 17,
+          "AgeDays": 9,
+          "TSI": 120,
+          "Salary": 250,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 5,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 4,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 3,
+          "ScorerSkill": 3,
+          "PassingSkill": 4,
+          "WingerSkill": 5,
+          "DefenderSkill": 3,
+          "SetPiecesSkill": 1,
+          "PlayerCategoryId": 3,
+          "EstimatedValue": 4100
+        }
+      ]
+    },
+    {
+      "Season": 2,
+      "Week": 1,
+      "League": {
+        "LeagueLevelUnitID": 266821,
+        "LeagueLevelUnitName": "V.138"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
+      "Matches": [
+        {
+          "MatchID": 737651315,
+          "MatchType": 3,
+          "TacticType": 2,
+          "TacticSkill": 9,
+          "RatingMidfield": 8,
+          "RatingRightDef": 22,
+          "RatingMidDef": 29,
+          "RatingLeftDef": 27,
+          "RatingRightAtt": 16,
+          "RatingMidAtt": 16,
+          "RatingLeftAtt": 20,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 16
+        },
+        {
+          "MatchID": 740693461,
+          "MatchType": 1,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 17,
+          "RatingRightDef": 19,
+          "RatingMidDef": 26,
+          "RatingLeftDef": 28,
+          "RatingRightAtt": 14,
+          "RatingMidAtt": 16,
+          "RatingLeftAtt": 18,
+          "TeamAttitude": 0,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 15
+        }
+      ],
+      "PowerRating": 637,
+      "FanclubSize": 973,
+      "ArenaCapacity": 17000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 238080084,
+          "Name": "Dennis de Borst",
+          "Age": 54,
+          "AgeDays": 77,
+          "TrainerType": 1,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Carlos Cosme",
+            "StaffId": 2410178,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Christopher Gerena",
+            "StaffId": 2431227,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Jorge Ojeda",
+            "StaffId": 2659033,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 18,
+          "AgeDays": 41,
+          "TSI": 20570,
+          "Salary": 3950,
+          "PlayerForm": 7,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 11,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1014366
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 18,
+          "AgeDays": 68,
+          "TSI": 22230,
+          "Salary": 2390,
+          "PlayerForm": 8,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 11,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 764844
+        },
+        {
+          "PlayerID": 487434467,
+          "PlayerNumber": 32,
+          "Age": 17,
+          "AgeDays": 11,
+          "TSI": 120,
+          "Salary": 250,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 5,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 3,
+          "ScorerSkill": 3,
+          "PassingSkill": 4,
+          "WingerSkill": 5,
+          "DefenderSkill": 3,
+          "SetPiecesSkill": 1,
+          "PlayerCategoryId": 3,
+          "EstimatedValue": 4100
         }
       ]
     }
@@ -2088,6 +2267,19 @@
       "Aggressiveness": 1,
       "Honesty": 3,
       "SpecialtyID": 0,
+      "CountryID": 165
+    },
+    {
+      "PlayerID": 487434467,
+      "FirstName": "Carlos",
+      "NickName": "",
+      "LastName": "Zayas",
+      "MotherClubBonus": true,
+      "IsAbroad": true,
+      "Agreeability": 3,
+      "Aggressiveness": 0,
+      "Honesty": 2,
+      "SpecialtyID": 4,
       "CountryID": 165
     }
   ]
