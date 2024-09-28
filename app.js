@@ -356,7 +356,7 @@ function goEpoch(epoch, data) {
   let ms = maxStats(data, epoch);
   if (data.WeeklyData[epoch].Matches.length > 0)
     $(".aggregated-hatstats").text(
-      ts(chartData(data, epoch)) + " / " + ts(ms.htstats)
+      ts(chartData(data, epoch)[0]) + " / " + ts(ms.htstats)
     );
   else $(".aggregated-hatstats").text("- / " + ts(ms.htstats));
   $(".aggregated-power-rating").text(
@@ -595,12 +595,14 @@ function chartCreate() {
         data: [],
         spanGaps: true,
         tension: 0.4,
+        hidden: false,
       },
       {
-        label: "value",
+        label: "valor",
         data: [],
         spanGaps: true,
         tension: 0.4,
+        hidden: true,
       },
     ],
   };
@@ -683,6 +685,12 @@ function chartClear() {
   chart.config.data.datasets = [
     {
       label: "hatstats",
+      data: [],
+      spanGaps: true,
+      tension: 0.4,
+    },
+    {
+      label: "valor",
       data: [],
       spanGaps: true,
       tension: 0.4,
