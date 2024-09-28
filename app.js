@@ -596,6 +596,12 @@ function chartCreate() {
         spanGaps: true,
         tension: 0.4,
       },
+      {
+        label: "value",
+        data: [],
+        spanGaps: true,
+        tension: 0.4,
+      },
     ],
   };
   const config = {
@@ -691,6 +697,7 @@ function chartLabel(data, epoch) {
 
 function chartData(data, epoch) {
   let htstats = null;
+  let value = 0;
 
   data.WeeklyData[epoch].Matches.forEach((match) => {
     htstats = Math.max(
@@ -705,7 +712,11 @@ function chartData(data, epoch) {
     );
   });
 
-  return htstats;
+  data.WeeklyData[epoch].PlayerData.forEach((player) => {
+    value += player.EstimatedValue;
+  });
+
+  return [htstats, value];
 }
 
 function maxStats(data, epoch) {
@@ -734,13 +745,18 @@ function maxStats(data, epoch) {
 }
 
 function chartAddEpoch(data, epoch) {
-  chart.config.data.datasets[0].data.push(chartData(data, epoch));
+  let cdata = chartData(data, epoch);
+  for (let j = 0; j < chart.config.data.datasets.length; j++) {
+    chart.config.data.datasets[j].data.push(cdata[j]);
+  }
   chart.config.data.labels.push(chartLabel(data, epoch));
   chart.update();
 
   if (chart.config.data.datasets[0].data.length > chartElements) {
     chart.config.data.labels.shift();
-    chart.config.data.datasets[0].data.shift();
+    for (let j = 0; j < chart.config.data.datasets.length; j++) {
+      chart.config.data.datasets[j].data.shift();
+    }
     chart.update();
   }
 
@@ -761,7 +777,9 @@ function chartAddEpoch(data, epoch) {
 }
 
 function chartRemoveEpoch(data, epoch) {
-  chart.config.data.datasets[0].data.pop();
+  for (let j = 0; j < chart.config.data.datasets.length; j++) {
+    chart.config.data.datasets[j].data.pop();
+  }
   chart.config.data.labels.pop();
   chart.update();
 
@@ -778,7 +796,10 @@ function chartRemoveEpoch(data, epoch) {
   let e = epoch - chartElements;
 
   if (e >= 0) {
-    chart.config.data.datasets[0].data.unshift(chartData(data, e));
+    let cdata = chartData(data, e);
+    for (let j = 0; j < chart.config.data.datasets.length; j++) {
+      chart.config.data.datasets[j].data.unshift(cdata[j]);
+    }
     chart.config.data.labels.unshift(chartLabel(data, e));
 
     chart.update();
