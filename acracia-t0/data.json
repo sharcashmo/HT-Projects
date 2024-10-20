@@ -2724,36 +2724,36 @@
           "MatchType": 3,
           "TacticType": 0,
           "TacticSkill": 0,
-          "RatingMidfield": 0,
-          "RatingRightDef": 0,
-          "RatingMidDef": 0,
-          "RatingLeftDef": 0,
-          "RatingRightAtt": 0,
-          "RatingMidAtt": 0,
-          "RatingLeftAtt": 24,
+          "RatingMidfield": 22,
+          "RatingRightDef": 30,
+          "RatingMidDef": 28,
+          "RatingLeftDef": 27,
+          "RatingRightAtt": 23,
+          "RatingMidAtt": 22,
+          "RatingLeftAtt": 21,
           "TeamAttitude": 0,
-          "RatingIndirectSetPiecesDef": 22,
+          "RatingIndirectSetPiecesDef": 23,
           "RatingIndirectSetPiecesAtt": 18
         },
         {
           "MatchID": 740693476,
           "MatchType": 1,
-          "TacticType": 0,
-          "TacticSkill": 0,
-          "RatingMidfield": 0,
-          "RatingRightDef": 0,
-          "RatingMidDef": 0,
-          "RatingLeftDef": 0,
-          "RatingRightAtt": 14,
-          "RatingMidAtt": 10,
-          "RatingLeftAtt": 11,
+          "TacticType": 2,
+          "TacticSkill": 11,
+          "RatingMidfield": 8,
+          "RatingRightDef": 30,
+          "RatingMidDef": 35,
+          "RatingLeftDef": 32,
+          "RatingRightAtt": 17,
+          "RatingMidAtt": 15,
+          "RatingLeftAtt": 17,
           "TeamAttitude": -1,
-          "RatingIndirectSetPiecesDef": 20,
-          "RatingIndirectSetPiecesAtt": 14
+          "RatingIndirectSetPiecesDef": 22,
+          "RatingIndirectSetPiecesAtt": 16
         }
       ],
-      "PowerRating": 660,
-      "FanclubSize": 1062,
+      "PowerRating": 676,
+      "FanclubSize": 1082,
       "ArenaCapacity": 21000,
       "StaffList": {
         "Trainer": {
@@ -2762,7 +2762,7 @@
           "Age": 54,
           "AgeDays": 105,
           "TrainerType": 1,
-          "Leadership": 3,
+          "Leadership": 2,
           "TrainerSkillLevel": 4
         },
         "StaffMembers": [
@@ -2792,7 +2792,7 @@
           "PlayerNumber": 20,
           "Age": 18,
           "AgeDays": 69,
-          "TSI": 25800,
+          "TSI": 26680,
           "Salary": 3950,
           "PlayerForm": 7,
           "Experience": 2,
@@ -2809,17 +2809,17 @@
           "DefenderSkill": 5,
           "SetPiecesSkill": 5,
           "PlayerCategoryId": 1,
-          "EstimatedValue": 1706816
+          "EstimatedValue": 1668896
         },
         {
           "PlayerID": 484616932,
           "PlayerNumber": 25,
           "Age": 18,
           "AgeDays": 96,
-          "TSI": 22940,
+          "TSI": 23050,
           "Salary": 2390,
           "PlayerForm": 5,
-          "Experience": 2,
+          "Experience": 3,
           "Leadership": 3,
           "Loyalty": 20,
           "Cards": 0,
@@ -2833,7 +2833,7 @@
           "DefenderSkill": 4,
           "SetPiecesSkill": 3,
           "PlayerCategoryId": 1,
-          "EstimatedValue": 1363484
+          "EstimatedValue": 1434168
         },
         {
           "PlayerID": 487434467,
@@ -2857,7 +2857,7 @@
           "DefenderSkill": 3,
           "SetPiecesSkill": 1,
           "PlayerCategoryId": 3,
-          "EstimatedValue": 1600
+          "EstimatedValue": 4300
         }
       ]
     }
