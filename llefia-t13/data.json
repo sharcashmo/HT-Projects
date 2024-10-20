@@ -1965,6 +1965,169 @@
           "SetPiecesSkill": 2,
           "PlayerCategoryId": 1,
           "EstimatedValue": 633331
+        },
+        {
+          "PlayerID": 487989734,
+          "PlayerNumber": 31,
+          "Age": 17,
+          "AgeDays": 86,
+          "TSI": 240,
+          "Salary": 270,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 4,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 4,
+          "ScorerSkill": 4,
+          "PassingSkill": 3,
+          "WingerSkill": 3,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 3,
+          "EstimatedValue": 2400
+        }
+      ]
+    },
+    {
+      "Season": 14,
+      "Week": 5,
+      "League": {
+        "LeagueLevelUnitID": 258797,
+        "LeagueLevelUnitName": "IV.26"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
+      "Matches": [
+        {
+          "MatchID": 740954264,
+          "MatchType": 1,
+          "TacticType": 2,
+          "TacticSkill": 5,
+          "RatingMidfield": 8,
+          "RatingRightDef": 24,
+          "RatingMidDef": 21,
+          "RatingLeftDef": 22,
+          "RatingRightAtt": 12,
+          "RatingMidAtt": 11,
+          "RatingLeftAtt": 11,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 17,
+          "RatingIndirectSetPiecesAtt": 14
+        }
+      ],
+      "PowerRating": 623,
+      "FanclubSize": 1559,
+      "ArenaCapacity": 43800,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 352936411,
+          "Name": "John Dyrman",
+          "Age": 48,
+          "AgeDays": 62,
+          "TrainerType": 2,
+          "Leadership": 3,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Manolo Cintrón",
+            "StaffId": 2412965,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Martín Galea",
+            "StaffId": 2415993,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Eric Padrón",
+            "StaffId": 2428668,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 485042823,
+          "PlayerNumber": 26,
+          "Age": 18,
+          "AgeDays": 13,
+          "TSI": 22030,
+          "Salary": 5350,
+          "PlayerForm": 7,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 1,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 11,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1040870
+        },
+        {
+          "PlayerID": 485877196,
+          "PlayerNumber": 29,
+          "Age": 17,
+          "AgeDays": 72,
+          "TSI": 14010,
+          "Salary": 1030,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 1,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 9,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 2,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 632335
+        },
+        {
+          "PlayerID": 487989734,
+          "PlayerNumber": 31,
+          "Age": 17,
+          "AgeDays": 88,
+          "TSI": 240,
+          "Salary": 270,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 4,
+          "ScorerSkill": 4,
+          "PassingSkill": 3,
+          "WingerSkill": 3,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 3,
+          "EstimatedValue": 2400
         }
       ]
     }
@@ -1994,6 +2157,19 @@
       "Aggressiveness": 3,
       "Honesty": 1,
       "SpecialtyID": 0,
+      "CountryID": 165
+    },
+    {
+      "PlayerID": 487989734,
+      "FirstName": "Aníbal José",
+      "NickName": "",
+      "LastName": "Megaloudis",
+      "MotherClubBonus": true,
+      "IsAbroad": true,
+      "Agreeability": 2,
+      "Aggressiveness": 2,
+      "Honesty": 3,
+      "SpecialtyID": 5,
       "CountryID": 165
     }
   ]
