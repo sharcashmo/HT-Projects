@@ -2860,6 +2860,185 @@
           "EstimatedValue": 4300
         }
       ]
+    },
+    {
+      "Season": 2,
+      "Week": 6,
+      "League": {
+        "LeagueLevelUnitID": 266821,
+        "LeagueLevelUnitName": "V.138"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
+      "Matches": [
+        {
+          "MatchID": 741900285,
+          "MatchType": 3,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 17,
+          "RatingRightDef": 16,
+          "RatingMidDef": 25,
+          "RatingLeftDef": 17,
+          "RatingRightAtt": 20,
+          "RatingMidAtt": 24,
+          "RatingLeftAtt": 17,
+          "TeamAttitude": 0,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 17
+        },
+        {
+          "MatchID": 740693482,
+          "MatchType": 1,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 14,
+          "RatingRightDef": 23,
+          "RatingMidDef": 27,
+          "RatingLeftDef": 28,
+          "RatingRightAtt": 17,
+          "RatingMidAtt": 17,
+          "RatingLeftAtt": 20,
+          "TeamAttitude": 0,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 16
+        }
+      ],
+      "PowerRating": 691,
+      "FanclubSize": 1098,
+      "ArenaCapacity": 21000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 238080084,
+          "Name": "Dennis de Borst",
+          "Age": 55,
+          "AgeDays": 0,
+          "TrainerType": 1,
+          "Leadership": 2,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Carlos Cosme",
+            "StaffId": 2410178,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Christopher Gerena",
+            "StaffId": 2431227,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Jorge Ojeda",
+            "StaffId": 2659033,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 18,
+          "AgeDays": 76,
+          "TSI": 25480,
+          "Salary": 3950,
+          "PlayerForm": 5,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 12,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1730796
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 18,
+          "AgeDays": 103,
+          "TSI": 23450,
+          "Salary": 2390,
+          "PlayerForm": 5,
+          "Experience": 3,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 12,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1581354
+        },
+        {
+          "PlayerID": 487434467,
+          "PlayerNumber": 32,
+          "Age": 17,
+          "AgeDays": 46,
+          "TSI": 130,
+          "Salary": 250,
+          "PlayerForm": 7,
+          "Experience": 2,
+          "Leadership": 5,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 3,
+          "ScorerSkill": 3,
+          "PassingSkill": 4,
+          "WingerSkill": 5,
+          "DefenderSkill": 3,
+          "SetPiecesSkill": 1,
+          "PlayerCategoryId": 3,
+          "EstimatedValue": 4200
+        },
+        {
+          "PlayerID": 488129225,
+          "PlayerNumber": 32,
+          "Age": 17,
+          "AgeDays": 24,
+          "TSI": 280,
+          "Salary": 270,
+          "PlayerForm": 6,
+          "Experience": 1,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 4,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 3,
+          "PassingSkill": 5,
+          "WingerSkill": 3,
+          "DefenderSkill": 6,
+          "SetPiecesSkill": 1,
+          "PlayerCategoryId": 3,
+          "EstimatedValue": 2800
+        }
+      ]
     }
   ],
   "PlayerList": [
@@ -2899,6 +3078,19 @@
       "Agreeability": 3,
       "Aggressiveness": 0,
       "Honesty": 2,
+      "SpecialtyID": 4,
+      "CountryID": 165
+    },
+    {
+      "PlayerID": 488129225,
+      "FirstName": "Kervens",
+      "NickName": "",
+      "LastName": "Bellot",
+      "MotherClubBonus": true,
+      "IsAbroad": true,
+      "Agreeability": 2,
+      "Aggressiveness": 3,
+      "Honesty": 1,
       "SpecialtyID": 4,
       "CountryID": 165
     }
