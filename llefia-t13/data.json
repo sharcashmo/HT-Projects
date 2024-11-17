@@ -2619,6 +2619,169 @@
           "EstimatedValue": 1800
         }
       ]
+    },
+    {
+      "Season": 14,
+      "Week": 9,
+      "League": {
+        "LeagueLevelUnitID": 258797,
+        "LeagueLevelUnitName": "IV.26"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
+      "Matches": [
+        {
+          "MatchID": 740954282,
+          "MatchType": 1,
+          "TacticType": 0,
+          "TacticSkill": 0,
+          "RatingMidfield": 9,
+          "RatingRightDef": 23,
+          "RatingMidDef": 24,
+          "RatingLeftDef": 23,
+          "RatingRightAtt": 11,
+          "RatingMidAtt": 9,
+          "RatingLeftAtt": 10,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 18,
+          "RatingIndirectSetPiecesAtt": 15
+        }
+      ],
+      "PowerRating": 623,
+      "FanclubSize": 1599,
+      "ArenaCapacity": 43800,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 352936411,
+          "Name": "John Dyrman",
+          "Age": 48,
+          "AgeDays": 90,
+          "TrainerType": 2,
+          "Leadership": 2,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Manolo Cintrón",
+            "StaffId": 2412965,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Martín Galea",
+            "StaffId": 2415993,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Eric Padrón",
+            "StaffId": 2428668,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 485042823,
+          "PlayerNumber": 26,
+          "Age": 18,
+          "AgeDays": 41,
+          "TSI": 25550,
+          "Salary": 5350,
+          "PlayerForm": 6,
+          "Experience": 3,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 2,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 12,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1557558
+        },
+        {
+          "PlayerID": 485877196,
+          "PlayerNumber": 29,
+          "Age": 17,
+          "AgeDays": 100,
+          "TSI": 19810,
+          "Salary": 1030,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 1,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 11,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 1,
+          "PassingSkill": 1,
+          "WingerSkill": 1,
+          "DefenderSkill": 2,
+          "SetPiecesSkill": 2,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 864982
+        },
+        {
+          "PlayerID": 487989734,
+          "PlayerNumber": 31,
+          "Age": 18,
+          "AgeDays": 4,
+          "TSI": 270,
+          "Salary": 270,
+          "PlayerForm": 7,
+          "Experience": 2,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 4,
+          "ScorerSkill": 4,
+          "PassingSkill": 3,
+          "WingerSkill": 3,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 3,
+          "EstimatedValue": 1100
+        },
+        {
+          "PlayerID": 488152128,
+          "PlayerNumber": 32,
+          "Age": 17,
+          "AgeDays": 71,
+          "TSI": 80,
+          "Salary": 250,
+          "PlayerForm": 6,
+          "Experience": 1,
+          "Leadership": 7,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 4,
+          "PassingSkill": 4,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 3,
+          "EstimatedValue": 1200
+        }
+      ]
     }
   ],
   "PlayerList": [
