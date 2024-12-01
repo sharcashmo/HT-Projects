@@ -3739,6 +3739,217 @@
           "EstimatedValue": 1100
         }
       ]
+    },
+    {
+      "Season": 2,
+      "Week": 11,
+      "League": {
+        "LeagueLevelUnitID": 266821,
+        "LeagueLevelUnitName": "V.138"
+      },
+      "Training": {
+        "TrainingLevel": 100,
+        "TrainingType": 9,
+        "StaminaTrainingPart": 10
+      },
+      "Matches": [
+        {
+          "MatchID": 740693497,
+          "MatchType": 1,
+          "TacticType": 2,
+          "TacticSkill": 11,
+          "RatingMidfield": 6,
+          "RatingRightDef": 21,
+          "RatingMidDef": 24,
+          "RatingLeftDef": 26,
+          "RatingRightAtt": 12,
+          "RatingMidAtt": 11,
+          "RatingLeftAtt": 13,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 20,
+          "RatingIndirectSetPiecesAtt": 15
+        }
+      ],
+      "PowerRating": 695,
+      "FanclubSize": 1174,
+      "ArenaCapacity": 25000,
+      "StaffList": {
+        "Trainer": {
+          "TrainerId": 238080084,
+          "Name": "Dennis de Borst",
+          "Age": 55,
+          "AgeDays": 35,
+          "TrainerType": 1,
+          "Leadership": 2,
+          "TrainerSkillLevel": 4
+        },
+        "StaffMembers": [
+          {
+            "Name": "Carlos Cosme",
+            "StaffId": 2410178,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Christopher Gerena",
+            "StaffId": 2431227,
+            "StaffType": 1,
+            "StaffLevel": 5
+          },
+          {
+            "Name": "Jorge Ojeda",
+            "StaffId": 2659033,
+            "StaffType": 2,
+            "StaffLevel": 5
+          }
+        ]
+      },
+      "PlayerData": [
+        {
+          "PlayerID": 484166146,
+          "PlayerNumber": 20,
+          "Age": 18,
+          "AgeDays": 111,
+          "TSI": 21060,
+          "Salary": 3950,
+          "PlayerForm": 3,
+          "Experience": 3,
+          "Leadership": 2,
+          "Loyalty": 20,
+          "Cards": 1,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 13,
+          "PlaymakerSkill": 5,
+          "ScorerSkill": 5,
+          "PassingSkill": 5,
+          "WingerSkill": 5,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 5,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 2514800
+        },
+        {
+          "PlayerID": 484616932,
+          "PlayerNumber": 25,
+          "Age": 19,
+          "AgeDays": 26,
+          "TSI": 35560,
+          "Salary": 8810,
+          "PlayerForm": 6,
+          "Experience": 3,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 6,
+          "KeeperSkill": 13,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 2,
+          "PassingSkill": 2,
+          "WingerSkill": 2,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 1,
+          "EstimatedValue": 1923150
+        },
+        {
+          "PlayerID": 487434467,
+          "PlayerNumber": 32,
+          "Age": 17,
+          "AgeDays": 81,
+          "TSI": 110,
+          "Salary": 250,
+          "PlayerForm": 5,
+          "Experience": 2,
+          "Leadership": 5,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 3,
+          "ScorerSkill": 3,
+          "PassingSkill": 4,
+          "WingerSkill": 5,
+          "DefenderSkill": 3,
+          "SetPiecesSkill": 1,
+          "PlayerCategoryId": 3,
+          "EstimatedValue": 1200
+        },
+        {
+          "PlayerID": 488129225,
+          "PlayerNumber": 33,
+          "Age": 17,
+          "AgeDays": 57,
+          "TSI": 320,
+          "Salary": 270,
+          "PlayerForm": 7,
+          "Experience": 1,
+          "Leadership": 3,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 2,
+          "ScorerSkill": 3,
+          "PassingSkill": 5,
+          "WingerSkill": 3,
+          "DefenderSkill": 6,
+          "SetPiecesSkill": 1,
+          "PlayerCategoryId": 3,
+          "EstimatedValue": 3300
+        },
+        {
+          "PlayerID": 488439799,
+          "PlayerNumber": 34,
+          "Age": 17,
+          "AgeDays": 57,
+          "TSI": 190,
+          "Salary": 250,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 5,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 4,
+          "ScorerSkill": 2,
+          "PassingSkill": 5,
+          "WingerSkill": 4,
+          "DefenderSkill": 4,
+          "SetPiecesSkill": 3,
+          "PlayerCategoryId": 2,
+          "EstimatedValue": 1200
+        },
+        {
+          "PlayerID": 488548767,
+          "PlayerNumber": 35,
+          "Age": 17,
+          "AgeDays": 0,
+          "TSI": 470,
+          "Salary": 270,
+          "PlayerForm": 6,
+          "Experience": 2,
+          "Leadership": 4,
+          "Loyalty": 20,
+          "Cards": 0,
+          "InjuryLevel": -1,
+          "StaminaSkill": 4,
+          "KeeperSkill": 1,
+          "PlaymakerSkill": 3,
+          "ScorerSkill": 4,
+          "PassingSkill": 5,
+          "WingerSkill": 2,
+          "DefenderSkill": 5,
+          "SetPiecesSkill": 1,
+          "PlayerCategoryId": 5,
+          "EstimatedValue": 1400
+        }
+      ]
     }
   ],
   "PlayerList": [
@@ -3805,6 +4016,19 @@
       "Aggressiveness": 3,
       "Honesty": 1,
       "SpecialtyID": 2,
+      "CountryID": 165
+    },
+    {
+      "PlayerID": 488548767,
+      "FirstName": "Doménico",
+      "NickName": "",
+      "LastName": "Barazarte",
+      "MotherClubBonus": true,
+      "IsAbroad": true,
+      "Agreeability": 4,
+      "Aggressiveness": 2,
+      "Honesty": 2,
+      "SpecialtyID": 3,
       "CountryID": 165
     }
   ]
