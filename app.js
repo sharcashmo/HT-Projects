@@ -604,6 +604,13 @@ function chartCreate() {
         tension: 0.4,
         hidden: true,
       },
+      {
+        label: "rating",
+        data: [],
+        spanGaps: true,
+        tension: 0.4,
+        hidden: true,
+      },
     ],
   };
   const config = {
@@ -695,6 +702,12 @@ function chartClear() {
       spanGaps: true,
       tension: 0.4,
     },
+    {
+      label: "rating",
+      data: [],
+      spanGaps: true,
+      tension: 0.4,
+    },
   ];
   chart.config.data.labels = [];
 }
@@ -706,6 +719,7 @@ function chartLabel(data, epoch) {
 function chartData(data, epoch) {
   let htstats = null;
   let value = 0;
+  let powerRating = data.WeeklyData[epoch].PowerRating;
 
   data.WeeklyData[epoch].Matches.forEach((match) => {
     htstats = Math.max(
@@ -724,7 +738,7 @@ function chartData(data, epoch) {
     value += player.EstimatedValue;
   });
 
-  return [htstats, value];
+  return [htstats, value, powerRating];
 }
 
 function maxStats(data, epoch) {
