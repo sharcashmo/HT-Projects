@@ -23,6 +23,18 @@ var trainingTypes = [
   "Defensa (defensas y medios)",
   "Lateral (extemos y delanteros)",
 ];
+var playerCategories = [
+  "",
+  "POR",
+  "DL",
+  "DC",
+  "EXT",
+  "MC",
+  "DEL",
+  "R",
+  "E1",
+  "E2",
+];
 
 Chart.register(ChartDataLabels);
 
@@ -516,6 +528,9 @@ function setPlayer(cell, data, weeklyData) {
   } else {
     $(".icon-mother-club", cell).hide();
   }
+  $(".player-category", cell).text(
+    playerCategories[weeklyData.PlayerCategoryId]
+  );
   $(".player-experience", cell).text(
     levelDenomination(weeklyData.Experience) +
       " (" +
