@@ -605,7 +605,7 @@ function chartCreate() {
         hidden: true,
       },
       {
-        label: "rating",
+        label: "potencial",
         data: [],
         spanGaps: true,
         tension: 0.4,
@@ -703,7 +703,7 @@ function chartClear() {
       tension: 0.4,
     },
     {
-      label: "rating",
+      label: "potencial",
       data: [],
       spanGaps: true,
       tension: 0.4,
