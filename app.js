@@ -501,7 +501,7 @@ function setPlayer(cell, data, weeklyData) {
   let htmsValues = htms(weeklyData);
 
   cell.attr("id", data.PlayerID);
-  $(".flag").attr("src", "./flags/" + data.CountryID + ".png");
+  $(".flag", cell).attr("src", "./flags/" + data.CountryID + ".png");
   $(".faceCard img", cell).attr("src", folder + data.PlayerID + ".png");
   $("a", cell).attr(
     "href",
