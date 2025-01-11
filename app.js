@@ -50,6 +50,12 @@ $(document).ready(function () {
     folder = "./" + $("#project-folder").val() + "/";
   }
 
+  if (urlSearchParams.has("epoch")) {
+    currentEpoch = urlSearchParams.get("epoch");
+  } else {
+    currentEpoch = 0;
+  }
+
   fetch(folder + "data.json", { cache: "no-cache" })
     .then((res) => {
       if (!res.ok) {
@@ -198,7 +204,6 @@ function startPlay(data, fast) {
 function startEpoch(data) {
   let maxEpoch = data.WeeklyData.length - 1;
 
-  currentEpoch = 0;
   stopPlay();
   updateButtons(data);
   chartCreate();
@@ -215,6 +220,7 @@ function startEpoch(data) {
         trainingChart.destroy();
         stopPlay();
         updateButtons(data);
+        currentEpoch = 0;
 
         fetch(folder + "data.json", { cache: "no-cache" })
           .then((res) => {
