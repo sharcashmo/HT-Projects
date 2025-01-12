@@ -203,11 +203,16 @@ function startPlay(data, fast) {
 
 function startEpoch(data) {
   let maxEpoch = data.WeeklyData.length - 1;
+  let iEpoch = 0;
+
+  if (currentEpoch > maxEpoch) currentEpoch = maxEpoch;
 
   stopPlay();
   updateButtons(data);
   chartCreate();
-  chartAddEpoch(data, currentEpoch);
+
+  for (iEpoch = 0; iEpoch <= currentEpoch; iEpoch++)
+    chartAddEpoch(data, iEpoch);
 
   $("#favicon").attr("href", folder + "favicon.ico");
 
