@@ -26,6 +26,10 @@ body {
   padding: 10px;
 }
 
+.cell p {
+  height: 1.4em;
+}
+
 .flex {
   display: flex !important;
 }
