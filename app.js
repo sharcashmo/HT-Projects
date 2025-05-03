@@ -161,7 +161,7 @@ function speciality(n) {
     "Técnico",
     "Rápido",
     "Potente",
-    "Impredecible",
+    "Imprevisible",
     "Cabeceador",
     "Estoico",
     "Influyente",
