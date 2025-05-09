@@ -523,11 +523,14 @@ function setPlayer(cell, data, weeklyData) {
   $(".player-name", cell).text(data.FirstName + " " + data.LastName);
   if (weeklyData.InjuryLevel < 0) {
     $(".icon-injury", cell).hide();
+    $(".player-injury", cell).hide();
   } else if (weeklyData.InjuryLevel == 0) {
     $(".icon-injury", cell).attr("src", "img/bruised.png").show();
+    $(".player-injury", cell).attr("src", "img/player-bruised.png").show();
   } else {
     $(".icon-injury", cell).attr("src", "img/injured.png").show();
     $(".player-injury-level", cell).text(weeklyData.InjuryLevel).show();
+    $(".player-injury", cell).attr("src", "img/player-injured.png").show();
   }
   if (weeklyData.Cards > 0) {
     $(".icon-cards", cell)
