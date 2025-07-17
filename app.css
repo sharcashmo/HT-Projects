@@ -297,6 +297,12 @@ table td {
   display: inline-block;
 }
 
+.trainer h3 div,
+.staffList h3 div {
+  height: 2.55em;
+  overflow: hidden;
+}
+
 .chart {
   position: relative;
   width: 60%;
