@@ -21990,20 +21990,20 @@
           "RatingIndirectSetPiecesAtt": 18
         },
         {
-          "MatchID": 0,
+          "MatchID": 752659336,
           "MatchType": 1,
-          "TacticType": 0,
-          "TacticSkill": 0,
-          "RatingMidfield": 0,
-          "RatingRightDef": 0,
-          "RatingMidDef": 0,
-          "RatingLeftDef": 0,
-          "RatingRightAtt": 0,
-          "RatingMidAtt": 0,
-          "RatingLeftAtt": 0,
-          "TeamAttitude": 0,
-          "RatingIndirectSetPiecesDef": 0,
-          "RatingIndirectSetPiecesAtt": 0
+          "TacticType": 2,
+          "TacticSkill": 17,
+          "RatingMidfield": 9,
+          "RatingRightDef": 42,
+          "RatingMidDef": 51,
+          "RatingLeftDef": 40,
+          "RatingRightAtt": 26,
+          "RatingMidAtt": 12,
+          "RatingLeftAtt": 33,
+          "TeamAttitude": -1,
+          "RatingIndirectSetPiecesDef": 25,
+          "RatingIndirectSetPiecesAtt": 15
         }
       ],
       "PowerRating": 765,
