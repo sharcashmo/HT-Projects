@@ -2,7 +2,7 @@
 var folder = "./fhetoky-t75/";
 var chart;
 var trainingChart;
-const chartElements = 16;
+const chartElements = 80;
 const intervalTime = 1000;
 const fastMultiplier = 2.5;
 var currentEpoch = 0;
